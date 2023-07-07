@@ -1,15 +1,7 @@
 [
   {
-    "ref": "59fc3bd1-b878-41a5-a26d-f06d869a90ea",
-    "keyword": "6d561fb0cb237d96f55b96addd9129bb",
-    "answer": "hola",
-    "options": {},
-    "from": "5491162023318",
-    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
-  },
-  {
-    "ref": "ans_70f412ad-5b2b-49de-8046-ba2ffca6edfb",
-    "keyword": "key_b4ff8442-9383-4046-a4ac-9885a860b241",
+    "ref": "ans_f899d15a-dd3c-4fdf-85e6-5c4f4546d5ed",
+    "keyword": "key_8df6bacb-b417-427b-909e-05c65381230a",
     "answer": "Bienvenido a la bot",
     "options": {
       "media": null,
@@ -21,12 +13,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "be62223d7d31d15581ec3a28e0758397",
+    "refSerialize": "53c94bb5bf983102916a519402149ae1",
     "from": "5491162023318"
   },
   {
-    "ref": "ans_b0285c57-ecb5-44c2-b263-6a99c5d14719",
-    "keyword": "ans_70f412ad-5b2b-49de-8046-ba2ffca6edfb",
+    "ref": "ans_9f393045-27f5-4dbd-bcd0-5a42b461162a",
+    "keyword": "ans_f899d15a-dd3c-4fdf-85e6-5c4f4546d5ed",
     "answer": "¿Como es tu email?",
     "options": {
       "media": null,
@@ -38,20 +30,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "f7dae3601496efe95b008e51f7294c77",
+    "refSerialize": "7ee5cb8da183d136c785a419767360c1",
     "from": "5491162023318"
   },
   {
-    "ref": "45c6214f-dac9-46de-a87d-62d07d357685",
-    "keyword": "f7dae3601496efe95b008e51f7294c77",
+    "ref": "3252e1d1-1333-4814-909c-01908468261f",
+    "keyword": "7ee5cb8da183d136c785a419767360c1",
     "answer": "@",
     "options": {},
     "from": "5491162023318",
     "refSerialize": "35339b7eba054a7f1592e540433c6e28"
   },
   {
-    "ref": "ans_867b472c-bafb-4811-8fa7-11f09cc0ad5b",
-    "keyword": "ans_b0285c57-ecb5-44c2-b263-6a99c5d14719",
+    "ref": "ans_404122ef-5d02-46f8-b96d-92d016612fde",
+    "keyword": "ans_9f393045-27f5-4dbd-bcd0-5a42b461162a",
     "answer": "Validando la información",
     "options": {
       "media": null,
@@ -63,12 +55,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "8af06e6549b6a101be6d257080b2025c",
+    "refSerialize": "c159b70037c3d41a79d0e73778b0090e",
     "from": "5491162023318"
   },
   {
-    "ref": "ans_a4feaf27-6f22-4ac2-9f69-31474e786a94",
-    "keyword": "ans_867b472c-bafb-4811-8fa7-11f09cc0ad5b",
+    "ref": "ans_9d32547b-d303-49ff-907a-97e7f3e94477",
+    "keyword": "ans_404122ef-5d02-46f8-b96d-92d016612fde",
     "answer": "Aca le dejamos su factura",
     "options": {
       "media": "./files/secundaria/turno_mañana/1_a/ritel.xlsx",
@@ -80,7 +72,7 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "2807bbfc5b62b8d405a09e44170c0e69",
+    "refSerialize": "6ecbda2fe8ebc2a5f265c29148e49d36",
     "from": "5491162023318"
   }
 ]
