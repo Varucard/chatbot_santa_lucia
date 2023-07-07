@@ -2,39 +2,19 @@
   key: {
     remoteJid: '5491162023318@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0E9294B82B6C5EEE7B8',
+    id: '3EB0C0B74D83E2BA8F7CEA',
     participant: undefined
   },
-  messageTimestamp: 1688738009,
+  messageTimestamp: 1688761384,
   pushName: 'Cristian Marquez',
   broadcast: false,
   message: Message {
-    conversation: 'hola',
+    conversation: '5',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'hola',
-  from: '5491162023318'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491162023318@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB05144A05457F6AD1C9D',
-    participant: undefined
-  },
-  messageTimestamp: 1688738011,
-  pushName: 'Cristian Marquez',
-  broadcast: false,
-  message: Message {
-    conversation: '@',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '@',
+  body: '5',
   from: '5491162023318'
 }

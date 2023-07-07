@@ -1,50 +1,16 @@
 [
   {
-    "ref": "ans_f899d15a-dd3c-4fdf-85e6-5c4f4546d5ed",
-    "keyword": "key_8df6bacb-b417-427b-909e-05c65381230a",
-    "answer": "Bienvenido a la bot",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "53c94bb5bf983102916a519402149ae1",
-    "from": "5491162023318"
-  },
-  {
-    "ref": "ans_9f393045-27f5-4dbd-bcd0-5a42b461162a",
-    "keyword": "ans_f899d15a-dd3c-4fdf-85e6-5c4f4546d5ed",
-    "answer": "¿Como es tu email?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "7ee5cb8da183d136c785a419767360c1",
-    "from": "5491162023318"
-  },
-  {
-    "ref": "3252e1d1-1333-4814-909c-01908468261f",
-    "keyword": "7ee5cb8da183d136c785a419767360c1",
-    "answer": "@",
+    "ref": "6f8a2f9c-a913-4797-827a-6ac41aa1b3dd",
+    "keyword": "4b0ec1b15d875295f95fc0062bccb2d1",
+    "answer": "5",
     "options": {},
     "from": "5491162023318",
-    "refSerialize": "35339b7eba054a7f1592e540433c6e28"
+    "refSerialize": "d2b414a4bc0b3490276097c7513b4c8c"
   },
   {
-    "ref": "ans_404122ef-5d02-46f8-b96d-92d016612fde",
-    "keyword": "ans_9f393045-27f5-4dbd-bcd0-5a42b461162a",
-    "answer": "Validando la información",
+    "ref": "ans_0ed699c5-335c-47b1-86ed-f775994d7574",
+    "keyword": "key_26b3bbb9-4c0f-4116-aaf2-a57788151337",
+    "answer": "Le damos la bienvenida a nuestro chat Institucional Oficial 🏫\nEstamos encantados de poder ayudarte a resolver la consulta o inconveniente que tengas",
     "options": {
       "media": null,
       "buttons": [],
@@ -55,15 +21,14 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "c159b70037c3d41a79d0e73778b0090e",
+    "refSerialize": "8298138ea3f49a865930a73cc21fe212",
     "from": "5491162023318"
   },
   {
-    "ref": "ans_9d32547b-d303-49ff-907a-97e7f3e94477",
-    "keyword": "ans_404122ef-5d02-46f8-b96d-92d016612fde",
-    "answer": "Aca le dejamos su factura",
+    "ref": "ans_0cc4b57f-456b-44a9-836b-bbd65d6dfbc7",
+    "keyword": "ans_0ed699c5-335c-47b1-86ed-f775994d7574",
     "options": {
-      "media": "./files/secundaria/turno_mañana/1_a/ritel.xlsx",
+      "media": null,
       "buttons": [],
       "capture": false,
       "child": null,
@@ -72,7 +37,7 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "6ecbda2fe8ebc2a5f265c29148e49d36",
+    "refSerialize": "88a5c46e82fd3dc5865f9a1962bf7ed5",
     "from": "5491162023318"
   }
 ]

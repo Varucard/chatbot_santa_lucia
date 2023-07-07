@@ -10,17 +10,17 @@ const BaileysProvider = bp;
 const JsonFileAdapter = jfa;
 
 const main = async () => {
-    const adapterDB = new JsonFileAdapter()
-    const adapterFlow = createFlow([barrel.flujoHola, barrel.flujoAdios])
-    const adapterProvider = createProvider(BaileysProvider)
+  const adapterDB = new JsonFileAdapter()
+  const adapterFlow = createFlow([barrel.flujoHola, barrel.flujoAdios])
+  const adapterProvider = createProvider(BaileysProvider)
 
-    createBot({
-        flow: adapterFlow,
-        provider: adapterProvider,
-        database: adapterDB,
-    })
+  createBot({
+    flow: adapterFlow,
+    provider: adapterProvider,
+    database: adapterDB,
+  })
 
-    QRPortalWeb()
+  QRPortalWeb()
 }
 
 main()

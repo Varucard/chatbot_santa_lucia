@@ -1,48 +1,25 @@
 {
-    "typescript.preferences.importModuleSpecifier": "project-relative",
-    "editor.formatOnSave": true,
-    "debug.saveBeforeStart": "none",
-    "typescript.tsdk": "node_modules\\typescript\\lib",
-    "editor.rulers": [
-      100
-    ],
-    "files.associations": {
-      ".env": "ini",
-      "env": "ini"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },      
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[scss]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "exportall.config.relExclusion": [
-      "/src/interceptors"
-    ],
-    "exportall.config.folderListener": [
-      "/src/libs/forms/schemas/elements",
-      "/src/libs/forms/schemas/inputs",
-      "/src/libs/forms",
-      "/src/libs/forms/enums",
-      "/src/libs/forms/schemas",
-      "/src/libs/forms/types",
-      "/src/libs/forms/interfaces",
-      "/src/libs/forms/const",
-      "/src/libs/forms/schemas/item-response",
-      "/src/libs/common",
-      "/src/libs/common/guards",
-      "/src/libs/common/decorators"
-    ]
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    100
+  ],
+  "files.associations": {
+    ".env": "ini",
+    "env": "ini"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },      
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
+}
