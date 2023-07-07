@@ -1,0 +1,86 @@
+[
+  {
+    "ref": "59fc3bd1-b878-41a5-a26d-f06d869a90ea",
+    "keyword": "6d561fb0cb237d96f55b96addd9129bb",
+    "answer": "hola",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_70f412ad-5b2b-49de-8046-ba2ffca6edfb",
+    "keyword": "key_b4ff8442-9383-4046-a4ac-9885a860b241",
+    "answer": "Bienvenido a la bot",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "be62223d7d31d15581ec3a28e0758397",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "ans_b0285c57-ecb5-44c2-b263-6a99c5d14719",
+    "keyword": "ans_70f412ad-5b2b-49de-8046-ba2ffca6edfb",
+    "answer": "¿Como es tu email?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f7dae3601496efe95b008e51f7294c77",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "45c6214f-dac9-46de-a87d-62d07d357685",
+    "keyword": "f7dae3601496efe95b008e51f7294c77",
+    "answer": "@",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "35339b7eba054a7f1592e540433c6e28"
+  },
+  {
+    "ref": "ans_867b472c-bafb-4811-8fa7-11f09cc0ad5b",
+    "keyword": "ans_b0285c57-ecb5-44c2-b263-6a99c5d14719",
+    "answer": "Validando la información",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "8af06e6549b6a101be6d257080b2025c",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "ans_a4feaf27-6f22-4ac2-9f69-31474e786a94",
+    "keyword": "ans_867b472c-bafb-4811-8fa7-11f09cc0ad5b",
+    "answer": "Aca le dejamos su factura",
+    "options": {
+      "media": "./files/secundaria/turno_mañana/1_a/ritel.xlsx",
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "2807bbfc5b62b8d405a09e44170c0e69",
+    "from": "5491162023318"
+  }
+]
