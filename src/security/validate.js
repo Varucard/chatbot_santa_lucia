@@ -1,22 +1,40 @@
-import pkg from 'xlsx-populate';
-const XlsxPopulate = pkg;
+import pkg from 'exceljs';
+const { Workbook } = pkg;
 
-export function validateDNI() {
+/**
+ * Encuentra un valor dentro de una Hoja de Excel
+ * @param {string} path ruta hacia el archivo requerido
+ * @param {string} sheet nombre de la hoja en la cual debe buscar los datos
+ * @param {number} value valor a buscar dentro del archivo
+ * 
+ * Retorna una promesa de boolean. TRUE si hay coincidencia, de lo contrario FALSE
+ */
+export async function validateDNI(path, sheet, value) {
 
-  XlsxPopulate.fromFileAsync('files/identidades/secundaria/dni_alumnos_1_a.xlsx')
-  .then(workbook => {
-    const sheet = workbook.sheet('Hoja1');
-    const cell = sheet.find('21903130');
+  const workbook = new Workbook();
 
-    if (cell && cell.value === '21903130') {
-      const address = `${String.fromCharCode(64 + cell.columnNumber)}${cell.rowNumber}`;
-      console.log('Se encontró el valor en la celda:', address);
-      // Realiza la validación del dato ingresado aquí
-    } else {
-      console.log('No se encontró el valor.');
+  try {
+
+    await workbook.xlsx.readFile(path);
+    const worksheet = workbook.getWorksheet(sheet);
+    let valueFound = false;
+
+    worksheet.eachRow(row => {
+      row.eachCell(cell => {
+        if (cell.value === value) {
+          valueFound = true;
+        }
+      });
+    });
+    
+    if (!valueFound) {
+      return false;
     }
-  })
-  .catch(error => {
-    console.error('Error al abrir el archivo Excel:', error);
-  });
+
+    return true;
+
+  } catch (error) {
+    // console.error('Error al abrir el archivo Excel:', error); // En caso de debugear descomentar esta linea
+    return false;
+  }
 }

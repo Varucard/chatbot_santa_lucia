@@ -1,15 +1,15 @@
 [
   {
-    "ref": "5d20d1fc-4d6c-4ec0-adc6-f3eea2db0772",
-    "keyword": "96289aad215afa7b4530efa5fd49120c",
+    "ref": "26bff0b9-c78a-4b50-a10d-c4f8d2bf2e49",
+    "keyword": "91219fee478c726587976acf32d399f2",
     "answer": "hola",
     "options": {},
     "from": "5491162023318",
     "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_72720ddc-67fd-4d4a-8905-b3370ab21bb1",
-    "keyword": "key_74d696fc-ea54-45dd-a0a4-2c17e78020d3",
+    "ref": "ans_788f2e67-4501-4bec-9655-1cb6fa742440",
+    "keyword": "key_7789f10b-a898-4bcb-a973-4a97253fdae8",
     "answer": "\n*Colegio Santa Lucia* 🏫\nEstamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖\nEstamos para ayudarte a resolver la consulta o inconveniente que tengas. 🙂\nPor favor, ingresá tu DNI para validar tu identidad en el sistema.\n*Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*\n",
     "options": {
       "media": null,
@@ -21,20 +21,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "790ae93c36b2c3a98059fa2533559b56",
+    "refSerialize": "e876edc01ffd63f0e8b14eb9b8f0a3d1",
     "from": "5491162023318"
   },
   {
-    "ref": "cafaaa07-6ebe-45cc-b56e-a34d015f48b8",
-    "keyword": "790ae93c36b2c3a98059fa2533559b56",
+    "ref": "c7e6a730-43f4-4c45-ac10-1fab93ec796a",
+    "keyword": "e876edc01ffd63f0e8b14eb9b8f0a3d1",
     "answer": "hola",
     "options": {},
     "from": "5491162023318",
     "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_72720ddc-67fd-4d4a-8905-b3370ab21bb1",
-    "keyword": "key_74d696fc-ea54-45dd-a0a4-2c17e78020d3",
+    "ref": "ans_788f2e67-4501-4bec-9655-1cb6fa742440",
+    "keyword": "key_7789f10b-a898-4bcb-a973-4a97253fdae8",
     "answer": "\n*Colegio Santa Lucia* 🏫\nEstamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖\nEstamos para ayudarte a resolver la consulta o inconveniente que tengas. 🙂\nPor favor, ingresá tu DNI para validar tu identidad en el sistema.\n*Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*\n",
     "options": {
       "media": null,
@@ -46,7 +46,7 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "790ae93c36b2c3a98059fa2533559b56",
+    "refSerialize": "e876edc01ffd63f0e8b14eb9b8f0a3d1",
     "from": "5491162023318"
   }
 ]

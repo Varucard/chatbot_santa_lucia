@@ -2,10 +2,10 @@
   key: {
     remoteJid: '5491162023318@s.whatsapp.net',
     fromMe: false,
-    id: '3EB06EB4F5F358749FC2D2',
+    id: '3EB04F4155BA375AF5F1B2',
     participant: undefined
   },
-  messageTimestamp: 1688961265,
+  messageTimestamp: 1688996807,
   pushName: 'Cristian Marquez',
   broadcast: false,
   message: Message {
@@ -22,10 +22,10 @@
   key: {
     remoteJid: '5491162023318@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0C888744646093DC2BA',
+    id: '3EB0EAAAE2A3E0358D42E6',
     participant: undefined
   },
-  messageTimestamp: 1688961266,
+  messageTimestamp: 1688996809,
   pushName: 'Cristian Marquez',
   broadcast: false,
   message: Message {
