@@ -5,7 +5,7 @@ const { Workbook } = pkg;
  * Encuentra un valor dentro de una Hoja de Excel
  * @param {string} path ruta hacia el archivo requerido
  * @param {string} sheet nombre de la hoja en la cual debe buscar los datos
- * @param {number} value valor a buscar dentro del archivo
+ * @param {string} value valor a buscar dentro del archivo
  * 
  * Retorna una promesa de boolean. TRUE si hay coincidencia, de lo contrario FALSE
  */
@@ -21,7 +21,7 @@ export async function validateDNI(path, sheet, value) {
 
     worksheet.eachRow(row => {
       row.eachCell(cell => {
-        if (cell.value === value) {
+        if (cell.value.toString() === value) {
           valueFound = true;
         }
       });
