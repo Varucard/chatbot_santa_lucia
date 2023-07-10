@@ -1,15 +1,15 @@
 [
   {
-    "ref": "0c0cca3c-cf09-40ed-a7f9-db4ae4a010d1",
-    "keyword": "be3d76c8056a2eb65dade11254c22644",
+    "ref": "948f7682-d2df-4802-a4af-f356876f070e",
+    "keyword": "f9c7564f13c8f074f2d69e98410c7e05",
     "answer": "hola",
     "options": {},
     "from": "5491162023318",
     "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_61ffd74a-9f75-444a-9ea0-284ff37d81e5",
-    "keyword": "key_a9b1757d-1e1b-4124-b097-1fa84ee985c6",
+    "ref": "ans_da576518-06d1-4ba1-90ca-35756694623f",
+    "keyword": "key_9b24f594-9134-46db-b56d-b4a6b738ce25",
     "answer": "\n*Colegio Santa Lucia* 🏫\nEstamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖\nEstamos para ayudarte a resolver la consulta o inconveniente que tengas. 🙂\nPor favor, ingresá tu DNI para validar tu identidad en el sistema.\n*Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*\n",
     "options": {
       "media": null,
@@ -21,26 +21,32 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "1e4a19fa102dee9ed1157aa2a1adf2ef",
+    "refSerialize": "8387eeb3a9ef9c83d854c6d03674d450",
     "from": "5491162023318"
   },
   {
-    "ref": "beded22a-31b6-43b0-9fbd-4974fe465189",
-    "keyword": "1e4a19fa102dee9ed1157aa2a1adf2ef",
+    "ref": "68bc0882-4cab-443f-95ee-ea107bd052d1",
+    "keyword": "8387eeb3a9ef9c83d854c6d03674d450",
     "answer": "41550112",
     "options": {},
     "from": "5491162023318",
     "refSerialize": "4510174905e5aa87f6943424f5be9263"
   },
   {
-    "ref": "ans_d1b6aecf-515e-4503-a0d9-1e5141e8008f",
-    "keyword": "key_a4d1a8b3-45d3-455f-8146-c48177c3ffc4",
+    "ref": "ans_bec38823-94c1-4cde-929b-5a0551665871",
+    "keyword": "key_0f455193-bac6-4b45-9e62-a886d24fff8c",
     "answer": "Por favor, seleccione el Sector al que le gustaria acceder",
     "options": {
       "media": null,
       "buttons": [
         {
           "body": "Secretaria"
+        },
+        {
+          "body": "Secundaria"
+        },
+        {
+          "body": "Primaria"
         }
       ],
       "capture": true,
@@ -50,7 +56,67 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "338048264c94050f65ddef8fd75e19ab",
+    "refSerialize": "c332f9415f28bbab784cba4a8f19de4b",
     "from": "5491162023318"
+  },
+  {
+    "ref": "ans_da576518-06d1-4ba1-90ca-35756694623f",
+    "keyword": "key_9b24f594-9134-46db-b56d-b4a6b738ce25",
+    "answer": "\n*Colegio Santa Lucia* 🏫\nEstamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖\nEstamos para ayudarte a resolver la consulta o inconveniente que tengas. 🙂\nPor favor, ingresá tu DNI para validar tu identidad en el sistema.\n*Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8387eeb3a9ef9c83d854c6d03674d450",
+    "from": "5491128636057"
+  },
+  {
+    "ref": "42ffd78a-4123-4ebe-897b-7c56a48b2916",
+    "keyword": "8387eeb3a9ef9c83d854c6d03674d450",
+    "answer": "41550112",
+    "options": {},
+    "from": "5491128636057",
+    "refSerialize": "4510174905e5aa87f6943424f5be9263"
+  },
+  {
+    "ref": "ans_bec38823-94c1-4cde-929b-5a0551665871",
+    "keyword": "key_0f455193-bac6-4b45-9e62-a886d24fff8c",
+    "answer": "Por favor, seleccione el Sector al que le gustaria acceder",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Secretaria"
+        },
+        {
+          "body": "Secundaria"
+        },
+        {
+          "body": "Primaria"
+        }
+      ],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c332f9415f28bbab784cba4a8f19de4b",
+    "from": "5491128636057"
+  },
+  {
+    "ref": "b07d9bd0-f8dd-4c5f-94b0-f1c5550cad23",
+    "keyword": "c332f9415f28bbab784cba4a8f19de4b",
+    "answer": "Secundaria",
+    "options": {},
+    "from": "5491128636057",
+    "refSerialize": "c33cf4e0be17d73162a64733181440c5"
   }
 ]

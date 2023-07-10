@@ -1,0 +1,10 @@
+#Archivo Env de Ejemplo
+
+#Token de la aplicación
+JWTOKEN='EAAREBiHFvr4BAKHo7M6op60N2Iev85p2KZBZA7pvKbW81zxoomLCbJjZB4RFVHX0ZBterIZCGG33WKJOjN7N0RJB9A12IQdkaF6YTDQ83ZBgkWHv2wavxBOe2WGPg5cc2QgxjurrvM8M0o3mfxYKS53gLs2lzX0dxLzRt41zdr4NGGKAvsXdX7M5QIZCNPcTZBMZBVBSLPhktCQZDZD0'
+
+#Identificador del numero de telefono
+NUMBER_ID='15235648671354'
+
+#Token de verificacion
+VERIFY_TOKEN='Token de verificacion'

@@ -1,40 +1,31 @@
 [handleMsg]:  {
-  key: {
-    remoteJid: '5491162023318@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0A6A0146D8F0632551A',
-    participant: undefined
-  },
-  messageTimestamp: 1689000057,
-  pushName: 'Cristian Marquez',
-  broadcast: false,
-  message: Message {
-    conversation: 'hola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'hola',
-  from: '5491162023318'
+  type: 'text',
+  from: '5491162023318',
+  to: '5491171357119',
+  body: 'hola'
 }
 [handleMsg]:  {
-  key: {
-    remoteJid: '5491162023318@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0722D922D240D951C34',
-    participant: undefined
-  },
-  messageTimestamp: 1689000060,
-  pushName: 'Cristian Marquez',
-  broadcast: false,
-  message: Message {
-    conversation: '41550112',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '41550112',
-  from: '5491162023318'
+  type: 'text',
+  from: '5491162023318',
+  to: '5491171357119',
+  body: '41550112'
+}
+[handleMsg]:  {
+  type: 'text',
+  from: '5491128636057',
+  to: '5491171357119',
+  body: 'Hola'
+}
+[handleMsg]:  {
+  type: 'text',
+  from: '5491128636057',
+  to: '5491171357119',
+  body: '41550112'
+}
+[handleMsg]:  {
+  type: 'interactive',
+  from: '5491128636057',
+  to: '5491171357119',
+  body: 'Secundaria',
+  title_list_reply: undefined
 }

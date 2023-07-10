@@ -1,12 +1,13 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import { barrel } from './views/index.js'
 import pkg from '@bot-whatsapp/bot'
-import qr from '@bot-whatsapp/portal'
-import bp from '@bot-whatsapp/provider/baileys'
+import mt from '@bot-whatsapp/provider/meta'
 import jfa from '@bot-whatsapp/database/json'
 
 const { createBot, createProvider, createFlow } = pkg;
-const QRPortalWeb = qr;
-const BaileysProvider = bp;
+const MetaProvider = mt;
 const JsonFileAdapter = jfa;
 
 const main = async () => {
@@ -17,7 +18,12 @@ const main = async () => {
     barrel.flujoUsuarioDeconocido,
     barrel.flujoAdios
   ])
-  const adapterProvider = createProvider(BaileysProvider)
+  const adapterProvider = createProvider(MetaProvider, {
+    jwtToken: process.env.JWTOKEN,
+    numberId: process.env.NUMBER_ID,
+    verifyToken: process.env.VERIFY_TOKEN,
+    version:'v16.0'
+  })
 
   createBot({
     flow: adapterFlow,
@@ -25,7 +31,6 @@ const main = async () => {
     database: adapterDB,
   })
 
-  QRPortalWeb()
 }
 
 main()
