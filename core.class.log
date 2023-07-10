@@ -1,0 +1,40 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB06EB4F5F358749FC2D2',
+    participant: undefined
+  },
+  messageTimestamp: 1688961265,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5491162023318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C888744646093DC2BA',
+    participant: undefined
+  },
+  messageTimestamp: 1688961266,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5491162023318'
+}
