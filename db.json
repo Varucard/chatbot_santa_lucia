@@ -1,43 +1,52 @@
 [
   {
-    "ref": "6f8a2f9c-a913-4797-827a-6ac41aa1b3dd",
-    "keyword": "4b0ec1b15d875295f95fc0062bccb2d1",
-    "answer": "5",
+    "ref": "5d20d1fc-4d6c-4ec0-adc6-f3eea2db0772",
+    "keyword": "96289aad215afa7b4530efa5fd49120c",
+    "answer": "hola",
     "options": {},
     "from": "5491162023318",
-    "refSerialize": "d2b414a4bc0b3490276097c7513b4c8c"
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_0ed699c5-335c-47b1-86ed-f775994d7574",
-    "keyword": "key_26b3bbb9-4c0f-4116-aaf2-a57788151337",
-    "answer": "Le damos la bienvenida a nuestro chat Institucional Oficial 🏫\nEstamos encantados de poder ayudarte a resolver la consulta o inconveniente que tengas",
+    "ref": "ans_72720ddc-67fd-4d4a-8905-b3370ab21bb1",
+    "keyword": "key_74d696fc-ea54-45dd-a0a4-2c17e78020d3",
+    "answer": "\n*Colegio Santa Lucia* 🏫\nEstamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖\nEstamos para ayudarte a resolver la consulta o inconveniente que tengas. 🙂\nPor favor, ingresá tu DNI para validar tu identidad en el sistema.\n*Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*\n",
     "options": {
       "media": null,
       "buttons": [],
-      "capture": false,
+      "capture": true,
       "child": null,
       "delay": 0,
       "nested": [],
       "keyword": {},
-      "callback": false
+      "callback": true
     },
-    "refSerialize": "8298138ea3f49a865930a73cc21fe212",
+    "refSerialize": "790ae93c36b2c3a98059fa2533559b56",
     "from": "5491162023318"
   },
   {
-    "ref": "ans_0cc4b57f-456b-44a9-836b-bbd65d6dfbc7",
-    "keyword": "ans_0ed699c5-335c-47b1-86ed-f775994d7574",
+    "ref": "cafaaa07-6ebe-45cc-b56e-a34d015f48b8",
+    "keyword": "790ae93c36b2c3a98059fa2533559b56",
+    "answer": "hola",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_72720ddc-67fd-4d4a-8905-b3370ab21bb1",
+    "keyword": "key_74d696fc-ea54-45dd-a0a4-2c17e78020d3",
+    "answer": "\n*Colegio Santa Lucia* 🏫\nEstamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖\nEstamos para ayudarte a resolver la consulta o inconveniente que tengas. 🙂\nPor favor, ingresá tu DNI para validar tu identidad en el sistema.\n*Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*\n",
     "options": {
       "media": null,
       "buttons": [],
-      "capture": false,
+      "capture": true,
       "child": null,
       "delay": 0,
       "nested": [],
       "keyword": {},
-      "callback": false
+      "callback": true
     },
-    "refSerialize": "88a5c46e82fd3dc5865f9a1962bf7ed5",
+    "refSerialize": "790ae93c36b2c3a98059fa2533559b56",
     "from": "5491162023318"
   }
 ]

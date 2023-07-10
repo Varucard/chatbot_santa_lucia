@@ -11,7 +11,7 @@ const JsonFileAdapter = jfa;
 
 const main = async () => {
   const adapterDB = new JsonFileAdapter()
-  const adapterFlow = createFlow([barrel.flujoHola, barrel.flujoAdios])
+  const adapterFlow = createFlow([barrel.flujoHola, barrel.flujoMenuPrincipal, barrel.flujoAdios])
   const adapterProvider = createProvider(BaileysProvider)
 
   createBot({
