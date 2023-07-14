@@ -1,10 +1,30 @@
-1- Consultar mensaje de bienvenida
 2- Validador de DNI
 3- Consultar tipos de DNI validos
-4- Listado de mensajes de inicio de ChatBot
-5- Menu de opciones - Trabajo con Botones
 6- Sub menu con pedido de datos
-7- Entrega de archivos
 8- Finalización de flujo con inicio de uno nuevo
 9- Roturas de flujos
 10- Cambios de flujos
+
+
+Vistas
+- by
+- hello (Terminada)
+- unknow_user (Terminada)
+- validator
+- reboot_menu (Terminada)
+- curso
+- turno
+
+Menus
+- main_menu (Terminado) {
+  - menu_administration {
+    - VACIO
+  }
+  - menu_primary {
+    - VACIO
+  }
+  - menu_secundary {
+    - consultar Notas
+  }
+}
+
