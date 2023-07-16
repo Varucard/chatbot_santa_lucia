@@ -2,6 +2,7 @@
 import { barrelAdministration } from './views_administration/index.js'
 import { barrelPrimary } from './views_primary/index.js'
 import { barrelSecundary } from './views_secundary/index.js'
+import { barrelMenuGrado } from './menu_grado/index.js'
 
 // Vistas
 import { flujoHola } from './hello.view.js'
@@ -18,6 +19,7 @@ export const barrel = {
   barrelAdministration,
   barrelPrimary,
   barrelSecundary,
+  barrelMenuGrado,
   flujoUsuarioDeconocido,
   flujoReinicioMenuPrincipal,
   flujoAdios

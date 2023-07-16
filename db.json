@@ -1,15 +1,15 @@
 [
   {
-    "ref": "d26f86f4-262e-4bc7-b859-67ca15addffa",
-    "keyword": "315c0093da76798486ad28ef037f24dc",
-    "answer": "Hola",
+    "ref": "b74c7086-0109-42d8-baaa-5743be261135",
+    "keyword": "10bee386b2da5dd1502e5c1a5b0ec427",
+    "answer": "hola",
     "options": {},
     "from": "5491162023318",
-    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_d1945a0e-0b53-47fb-aff7-4e0f9e8f321b",
-    "keyword": "key_1321d83b-c30b-4406-9511-cc2ee6f298af",
+    "ref": "ans_62bb03c7-423c-48c1-87e7-991e6b9ad5bd",
+    "keyword": "key_7bca8523-192a-4de6-bf39-2d74db14a383",
     "answer": "\n*Colegio Santa Lucia* 🏫\nEstamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖\nEstamos para ayudarte a resolver la consulta o inconveniente que tengas. 🙂\n",
     "options": {
       "media": null,
@@ -21,12 +21,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "5a5067fc4223612ed65e9875d3f00048",
+    "refSerialize": "7b7908d37e45b5e6a9f585c810ca39ea",
     "from": "5491162023318"
   },
   {
-    "ref": "ans_b885b4f5-1907-4b75-acab-30632dfdba89",
-    "keyword": "key_7ac005f0-6459-4030-9882-b7efc851320a",
+    "ref": "ans_5128c004-e6a0-4ea3-9710-79903b6567d0",
+    "keyword": "key_c0f4c3eb-dcd8-44ff-989b-b4e8f5065108",
     "answer": "Por favor, seleccione la opción a la que desea acceder 🗄️",
     "options": {
       "media": null,
@@ -48,74 +48,26 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "d88be49ef7e6e1b2aab21bb21f2020a1",
+    "refSerialize": "ef56797049424f8f6445297fe4b19b3f",
     "from": "5491162023318"
   },
   {
-    "ref": "f8c7ae43-7941-4e8c-a1e9-293f0aa046d8",
-    "keyword": "d88be49ef7e6e1b2aab21bb21f2020a1",
+    "ref": "5c11c400-15b8-4793-bee5-e1534c77d06f",
+    "keyword": "ef56797049424f8f6445297fe4b19b3f",
     "answer": "Secundaria 🎓",
     "options": {},
     "from": "5491162023318",
     "refSerialize": "22cd0352c60c349a4eafb641b70244b7"
   },
   {
-    "ref": "ans_1cb4196d-c8af-46ff-b225-6c80ae13a43e",
-    "keyword": "key_d14f3d3f-743c-45b3-b8ab-c3ba3a556d0f",
-    "answer": "Menu Secundaria",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "7b9c261df77eb7bb75b0398ab88f2a19",
-    "from": "5491162023318"
-  },
-  {
-    "ref": "81c2fbac-45be-4784-b697-5be21c1c49f4",
-    "keyword": "7b9c261df77eb7bb75b0398ab88f2a19",
-    "answer": "Hola",
-    "options": {},
-    "from": "5491162023318",
-    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
-  },
-  {
-    "ref": "ans_d1945a0e-0b53-47fb-aff7-4e0f9e8f321b",
-    "keyword": "key_1321d83b-c30b-4406-9511-cc2ee6f298af",
-    "answer": "\n*Colegio Santa Lucia* 🏫\nEstamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖\nEstamos para ayudarte a resolver la consulta o inconveniente que tengas. 🙂\n",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "5a5067fc4223612ed65e9875d3f00048",
-    "from": "5491162023318"
-  },
-  {
-    "ref": "ans_b885b4f5-1907-4b75-acab-30632dfdba89",
-    "keyword": "key_7ac005f0-6459-4030-9882-b7efc851320a",
-    "answer": "Por favor, seleccione la opción a la que desea acceder 🗄️",
+    "ref": "ans_0c7512b8-7b59-4201-825f-87f5571e6f1c",
+    "keyword": "key_1cae0cbc-8490-4b11-88a4-61b2e561444f",
+    "answer": "\n*Sector Secundaria 🎓*\nPor favor, seleccione la opción a la que desea acceder 🗄️\n",
     "options": {
       "media": null,
       "buttons": [
         {
-          "body": "Administración 🗃️"
-        },
-        {
-          "body": "Secundaria 🎓"
-        },
-        {
-          "body": "Primaria 👨🏻‍💻"
+          "body": "Consultar Notas 🧾"
         }
       ],
       "capture": true,
@@ -125,74 +77,29 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "d88be49ef7e6e1b2aab21bb21f2020a1",
+    "refSerialize": "cc28cbaa5dd83591005b0cb5e074926e",
     "from": "5491162023318"
   },
   {
-    "ref": "d7928752-64c4-41fb-8df8-025159fb1ffc",
-    "keyword": "d88be49ef7e6e1b2aab21bb21f2020a1",
-    "answer": "Primaria 👨🏻‍💻",
+    "ref": "95bee117-abf9-4bdd-80cc-fa1e4fa30bb8",
+    "keyword": "cc28cbaa5dd83591005b0cb5e074926e",
+    "answer": "Consultar Notas 🧾",
     "options": {},
     "from": "5491162023318",
-    "refSerialize": "c14cf01fe58c4af22e18313d67bafb5b"
+    "refSerialize": "c3be90a964d0befd1e5a1a9a082256bd"
   },
   {
-    "ref": "ans_730d7cdd-ed15-4b73-944d-03ebaccfd2d4",
-    "keyword": "key_49343dab-caed-448e-a0c2-0ebb33a45115",
-    "answer": "Usted ingreso al \"Menu de Primaria\", pronto integraremos nuevas modalidades para poder brindarle mas ayuda! 🤖",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "8bce100ad5d8f8d88c6c8fb26dc0f00b",
-    "from": "5491162023318"
-  },
-  {
-    "ref": "ans_e9df52f0-297d-4942-ac58-92d07ff4d2a0",
-    "keyword": "key_89e53cb3-8930-44a7-938d-36b91017e6b5",
-    "answer": "Por favor digite la palabra \"Reinicar\" para reiniciar el servicio 🤖 y volver a visualizar el Menu Principal 🗄️",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "01ae3fc799188d97556b2a4a9471f8e5",
-    "from": "5491162023318"
-  },
-  {
-    "ref": "137b5afd-be9a-42a5-8e17-42fd973e629f",
-    "keyword": "01ae3fc799188d97556b2a4a9471f8e5",
-    "answer": "Reiniciar",
-    "options": {},
-    "from": "5491162023318",
-    "refSerialize": "7860dc54bc2a9111ee9ba1889be0e588"
-  },
-  {
-    "ref": "ans_b885b4f5-1907-4b75-acab-30632dfdba89",
-    "keyword": "key_7ac005f0-6459-4030-9882-b7efc851320a",
-    "answer": "Por favor, seleccione la opción a la que desea acceder 🗄️",
+    "ref": "ans_392d2bdf-23f9-4c17-8cc8-a91776396e53",
+    "keyword": "key_a2390a05-d61a-4c5a-a7ce-0a635342fe2a",
+    "answer": "Por favor seleccione el turno",
     "options": {
       "media": null,
       "buttons": [
         {
-          "body": "Administración 🗃️"
+          "body": "T.M (Turno Mañana) 🌚"
         },
         {
-          "body": "Secundaria 🎓"
-        },
-        {
-          "body": "Primaria 👨🏻‍💻"
+          "body": "T.T (Turno Tarde) 🌝"
         }
       ],
       "capture": true,
@@ -202,49 +109,74 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "d88be49ef7e6e1b2aab21bb21f2020a1",
+    "refSerialize": "0939ec8556025e2bcbb3d1c385e95886",
     "from": "5491162023318"
   },
   {
-    "ref": "8b0cee0c-c0d7-4384-877c-6a7e195e4dd3",
-    "keyword": "d88be49ef7e6e1b2aab21bb21f2020a1",
-    "answer": "Administración 🗃️",
+    "ref": "1db25cbe-2481-4914-8d0c-7cc9e4ccff2f",
+    "keyword": "0939ec8556025e2bcbb3d1c385e95886",
+    "answer": "T.M (Turno Mañana) 🌚",
     "options": {},
     "from": "5491162023318",
-    "refSerialize": "7fdbaadaeb5c62e9ec792ee1713ec4fb"
+    "refSerialize": "524f6099fd2cc237df26dcfda33db0c6"
   },
   {
-    "ref": "ans_a3c88034-2df1-4128-acf9-63609c675f5d",
-    "keyword": "key_630e021e-41c3-414a-b301-c62e14ed2138",
-    "answer": "Usted ingreso al \"Menu de Administración\", pronto integraremos nuevas modalidades para poder brindarle mas ayuda! 🤖",
+    "ref": "ans_9b8ec194-5bdb-4a9c-b89d-a51f31c2146a",
+    "keyword": "key_feea0b0f-6617-4ab0-9bc9-4de9ca2b19dd",
+    "answer": "Por favor seleccione la Division",
     "options": {
       "media": null,
-      "buttons": [],
-      "capture": false,
+      "buttons": [
+        {
+          "body": "A"
+        },
+        {
+          "body": "B"
+        }
+      ],
+      "capture": true,
       "child": null,
       "delay": 0,
       "nested": [],
       "keyword": {},
-      "callback": false
+      "callback": true
     },
-    "refSerialize": "8e38fbe706b2cc108f6351376fd90bba",
+    "refSerialize": "c7053e612667f57d1ff8f77b99b4dab8",
     "from": "5491162023318"
   },
   {
-    "ref": "ans_e9df52f0-297d-4942-ac58-92d07ff4d2a0",
-    "keyword": "key_89e53cb3-8930-44a7-938d-36b91017e6b5",
-    "answer": "Por favor digite la palabra \"Reinicar\" para reiniciar el servicio 🤖 y volver a visualizar el Menu Principal 🗄️",
+    "ref": "af980e73-1249-439c-8ba6-ac1e91ce77a1",
+    "keyword": "c7053e612667f57d1ff8f77b99b4dab8",
+    "answer": "B",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "7d1f4c73fe1e92b549bdacd1e4381e5f"
+  },
+  {
+    "ref": "ans_92d07491-5843-447c-8005-22ec593dc19b",
+    "keyword": "key_3cf6251e-ac12-4510-96ca-f9ebf247c682",
+    "answer": "Por favor seleccione el Curso",
     "options": {
       "media": null,
-      "buttons": [],
-      "capture": false,
+      "buttons": [
+        {
+          "body": "1"
+        },
+        {
+          "body": "2"
+        },
+        {
+          "body": "3"
+        }
+      ],
+      "capture": true,
       "child": null,
       "delay": 0,
       "nested": [],
       "keyword": {},
-      "callback": false
+      "callback": true
     },
-    "refSerialize": "01ae3fc799188d97556b2a4a9471f8e5",
+    "refSerialize": "52978248647c1ae13b6c88a74ce71557",
     "from": "5491162023318"
   }
 ]

@@ -1,10 +1,7 @@
-2- Validador de DNI
 3- Consultar tipos de DNI validos
 6- Sub menu con pedido de datos
-8- Finalización de flujo con inicio de uno nuevo
-9- Roturas de flujos
-10- Cambios de flujos
-
+7- Resolver como guardar los datos del Usuario para ingresar a las carpetas
+8- Limite de Botones
 
 Vistas
 - by
@@ -12,19 +9,29 @@ Vistas
 - unknow_user (Terminada)
 - validator
 - reboot_menu (Terminada)
-- curso
-- turno
 
 Menus
 - main_menu (Terminado) {
   - menu_administration {
     - VACIO
   }
-  - menu_primary {
+  - menu_primary (Terminado) {
     - VACIO
   }
-  - menu_secundary {
-    - consultar Notas
+  - menu_secundary (Terminado) {
+    - consultar Notas {
+      - menu_grado
+    }
+  }
+}
+
+- menu_grado {
+  - menu_turno (T.T - T.M) {
+    - menu_curso (1-2-3-4-5-6) {
+      - menu_division (A-B) {
+        Facilito la nota
+      }
+    }
   }
 }
 

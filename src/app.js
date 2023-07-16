@@ -30,6 +30,10 @@ const main = async () => {
     barrel.barrelPrimary.flujoMenuPrimaria,
     // Barrels Menu Secundaria
     barrel.barrelSecundary.flujoMenuSecundaria,
+    // Barrel Menu Grado
+    barrel.barrelMenuGrado.flujoMenuCurso,
+    barrel.barrelMenuGrado.flujoMenuDivision,
+    barrel.barrelMenuGrado.flujoMenuTurno,
     barrel.flujoUsuarioDeconocido,
     barrel.flujoReinicioMenuPrincipal,
     barrel.flujoAdios

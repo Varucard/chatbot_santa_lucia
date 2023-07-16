@@ -1,0 +1,34 @@
+[handleMsg]:  {
+  type: 'text',
+  from: '5491162023318',
+  to: '5491171357119',
+  body: 'hola'
+}
+[handleMsg]:  {
+  type: 'interactive',
+  from: '5491162023318',
+  to: '5491171357119',
+  body: 'Secundaria 🎓',
+  title_list_reply: undefined
+}
+[handleMsg]:  {
+  type: 'interactive',
+  from: '5491162023318',
+  to: '5491171357119',
+  body: 'Consultar Notas 🧾',
+  title_list_reply: undefined
+}
+[handleMsg]:  {
+  type: 'interactive',
+  from: '5491162023318',
+  to: '5491171357119',
+  body: 'T.M (Turno Mañana) 🌚',
+  title_list_reply: undefined
+}
+[handleMsg]:  {
+  type: 'interactive',
+  from: '5491162023318',
+  to: '5491171357119',
+  body: 'B',
+  title_list_reply: undefined
+}
