@@ -1,19 +1,14 @@
 import pkg from '@bot-whatsapp/bot';
 const { addKeyword } = pkg;
 
-//Barrels
-import { barrelAdministration } from './views_administration/index.js'
-import { barrelPrimary } from './views_primary/index.js'
-import { barrelSecundary } from './views_secundary/index.js'
-
-// Flujos
-import { flujoReinicioMenuPrincipal } from './reboot_main_menu.view.js'
+import { barrel } from './index.js'
 
 /**
  * Flujo de Menu Principal 1 (Administración, Secundaria, Primaria)
  * El Usuario puede seleccionar alguna de estas opciones para obtener mas opciones
+ * En caso de recibir algo incorrecto el sistema pide el reinicio
  */
-export const flujoMenuPrincipal = addKeyword(['Menu Principal', 'Reiniciar', 'reiniciar'])
+export const flujoMenuPrincipal = addKeyword(['Menu Principal'])
 .addAnswer(['Por favor, seleccione la opción a la que desea acceder 🗄️'],
 {
   capture: true,
@@ -21,17 +16,17 @@ export const flujoMenuPrincipal = addKeyword(['Menu Principal', 'Reiniciar', 're
 }, async (ctx, {gotoFlow}) => {
   switch (ctx.body) {
     case 'Administración 🗃️':
-      gotoFlow(barrelAdministration.flujoMenuAdministracion)
+      gotoFlow(barrel.barrelAdministration.flujoMenuAdministracion)
       break;
     case 'Secundaria 🎓':
-      gotoFlow(barrelSecundary.flujoMenuSecundaria)
+      gotoFlow(barrel.barrelSecundary.flujoMenuSecundaria)
       break;
     case 'Primaria 👨🏻‍💻':
-      gotoFlow(barrelPrimary.flujoMenuPrimaria)
+      gotoFlow(barrel.barrelPrimary.flujoMenuPrimaria)
       break;
 
     default:
-      gotoFlow(flujoReinicioMenuPrincipal)
+      gotoFlow(barrel.flujoReinicioSistema)
       break;
   }  
 })

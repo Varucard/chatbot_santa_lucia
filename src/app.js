@@ -22,21 +22,24 @@ const main = async () => {
   // Al momento de trabajar es necesario declarar todos los Flujos en esta sector
   // Al trabajar con Barrels es necesaria desglozarlos en este sector para que el sistema los reconozca
   const adapterFlow = createFlow([
+    barrel.flujoAdios,
     barrel.flujoHola,
     barrel.flujoMenuPrincipal,
+    barrel.flujoReinicioSistema,
+    barrel.flujoQuedarse,
     // Barrels Menu Administración 
     barrel.barrelAdministration.flujoMenuAdministracion,
     // Barrels Menu Primaria 
     barrel.barrelPrimary.flujoMenuPrimaria,
     // Barrels Menu Secundaria
     barrel.barrelSecundary.flujoMenuSecundaria,
-    // Barrel Menu Grado
-    barrel.barrelMenuGrado.flujoMenuCurso,
-    barrel.barrelMenuGrado.flujoMenuDivision,
-    barrel.barrelMenuGrado.flujoMenuTurno,
-    barrel.flujoUsuarioDeconocido,
-    barrel.flujoReinicioMenuPrincipal,
-    barrel.flujoAdios
+    // Barrels Validadores
+    barrel.barrelValidadores.flujoValidadorAlumno,
+    barrel.barrelValidadores.flujoValidadorTutores,
+    // Barrels Usuarios Desconocidos
+    barrel.barrelUsuariosDesconocidos.flujoAlumnoDesconocido,
+    barrel.barrelUsuariosDesconocidos.flujoAlumnoDesconocido,
+    barrel.barrelUsuariosDesconocidos.flujoTutorDesconocido    
   ])
   // Instancia donde se crea el proveedor del servicio
   const adapterProvider = createProvider(MetaProvider, {

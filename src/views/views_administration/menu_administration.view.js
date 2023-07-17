@@ -8,4 +8,4 @@ import { barrel } from '../index.js';
  */
 export const flujoMenuAdministracion = addKeyword(['Flujo Administracion'])
 .addAnswer('Usted ingreso al "Menu de Administración", pronto integraremos nuevas modalidades para poder brindarle mas ayuda! 🤖')
-.addAction((ctx, {gotoFlow}) => gotoFlow(barrel.flujoReinicioMenuPrincipal))
+.addAction((ctx, {gotoFlow}) => gotoFlow(barrel.flujoReinicioSistema))

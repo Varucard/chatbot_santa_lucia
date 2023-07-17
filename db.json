@@ -1,15 +1,15 @@
 [
   {
-    "ref": "b74c7086-0109-42d8-baaa-5743be261135",
-    "keyword": "10bee386b2da5dd1502e5c1a5b0ec427",
+    "ref": "2b96f8aa-05e2-4b76-82c0-3d8b731a49a2",
+    "keyword": "4510174905e5aa87f6943424f5be9263",
     "answer": "hola",
     "options": {},
     "from": "5491162023318",
     "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_62bb03c7-423c-48c1-87e7-991e6b9ad5bd",
-    "keyword": "key_7bca8523-192a-4de6-bf39-2d74db14a383",
+    "ref": "ans_4d50a982-af03-4224-bd49-b8f939be0c0d",
+    "keyword": "key_0a58a69d-8ac6-44a4-886e-1fc4ed317433",
     "answer": "\n*Colegio Santa Lucia* 🏫\nEstamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖\nEstamos para ayudarte a resolver la consulta o inconveniente que tengas. 🙂\n",
     "options": {
       "media": null,
@@ -21,12 +21,37 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "7b7908d37e45b5e6a9f585c810ca39ea",
+    "refSerialize": "bb4ea6602866a83dcb3b4a91559a1d9d",
     "from": "5491162023318"
   },
   {
-    "ref": "ans_5128c004-e6a0-4ea3-9710-79903b6567d0",
-    "keyword": "key_c0f4c3eb-dcd8-44ff-989b-b4e8f5065108",
+    "ref": "ans_63df242c-50ac-46d0-91e8-240d3d8ee192",
+    "keyword": "key_8818d32b-ad56-4d2d-adf3-78513760f87f",
+    "answer": "\nPor favor, ingresá tu DNI para validar tu identidad en el sistema.\n*Recordá que el mismo debe ser ingresado sin utilizar puntos (11222333)*\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3542c45df514768c86ea14ff243c1fcf",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "6ea00fbd-1e55-41ae-9fb7-3bc1a37ad366",
+    "keyword": "3542c45df514768c86ea14ff243c1fcf",
+    "answer": "21903130",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "373b45ba7aa97e0eb6b1f51812112d8c"
+  },
+  {
+    "ref": "ans_794f2cbb-ea8d-4ead-b3aa-2a0b92cc64c8",
+    "keyword": "key_d26e3d4c-a0c5-4d97-856a-27081e03e4d5",
     "answer": "Por favor, seleccione la opción a la que desea acceder 🗄️",
     "options": {
       "media": null,
@@ -48,20 +73,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "ef56797049424f8f6445297fe4b19b3f",
+    "refSerialize": "1b743dec21269c66536b6d803731ceaa",
     "from": "5491162023318"
   },
   {
-    "ref": "5c11c400-15b8-4793-bee5-e1534c77d06f",
-    "keyword": "ef56797049424f8f6445297fe4b19b3f",
+    "ref": "5a1e8235-3bf2-4378-a42b-4bcf171121bd",
+    "keyword": "1b743dec21269c66536b6d803731ceaa",
     "answer": "Secundaria 🎓",
     "options": {},
     "from": "5491162023318",
     "refSerialize": "22cd0352c60c349a4eafb641b70244b7"
   },
   {
-    "ref": "ans_0c7512b8-7b59-4201-825f-87f5571e6f1c",
-    "keyword": "key_1cae0cbc-8490-4b11-88a4-61b2e561444f",
+    "ref": "ans_419180d0-a54d-451f-8839-123725c4c184",
+    "keyword": "key_d1f9f408-75c0-4ff2-9987-69af0107308d",
     "answer": "\n*Sector Secundaria 🎓*\nPor favor, seleccione la opción a la que desea acceder 🗄️\n",
     "options": {
       "media": null,
@@ -77,31 +102,24 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "cc28cbaa5dd83591005b0cb5e074926e",
+    "refSerialize": "87173059108231e6d4887893be88739c",
     "from": "5491162023318"
   },
   {
-    "ref": "95bee117-abf9-4bdd-80cc-fa1e4fa30bb8",
-    "keyword": "cc28cbaa5dd83591005b0cb5e074926e",
+    "ref": "d41f16a9-001e-462e-a405-37dffeb6683c",
+    "keyword": "87173059108231e6d4887893be88739c",
     "answer": "Consultar Notas 🧾",
     "options": {},
     "from": "5491162023318",
     "refSerialize": "c3be90a964d0befd1e5a1a9a082256bd"
   },
   {
-    "ref": "ans_392d2bdf-23f9-4c17-8cc8-a91776396e53",
-    "keyword": "key_a2390a05-d61a-4c5a-a7ce-0a635342fe2a",
-    "answer": "Por favor seleccione el turno",
+    "ref": "ans_0ccdedaf-05f3-4dc3-9282-48b76c3000b4",
+    "keyword": "key_2a6a2e06-ff9a-495c-a322-6da7384ebf69",
+    "answer": "\nPor favor, ingresá el DNI del Alumno para validar su identidad en el sistema.\n*Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*\n",
     "options": {
       "media": null,
-      "buttons": [
-        {
-          "body": "T.M (Turno Mañana) 🌚"
-        },
-        {
-          "body": "T.T (Turno Tarde) 🌝"
-        }
-      ],
+      "buttons": [],
       "capture": true,
       "child": null,
       "delay": 0,
@@ -109,64 +127,91 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "0939ec8556025e2bcbb3d1c385e95886",
+    "refSerialize": "0db135ca539d1fb2c8b5177bd60d4c38",
     "from": "5491162023318"
   },
   {
-    "ref": "1db25cbe-2481-4914-8d0c-7cc9e4ccff2f",
-    "keyword": "0939ec8556025e2bcbb3d1c385e95886",
-    "answer": "T.M (Turno Mañana) 🌚",
+    "ref": "01ef97af-bbed-4514-aef0-677628121f2a",
+    "keyword": "0db135ca539d1fb2c8b5177bd60d4c38",
+    "answer": "20771757",
     "options": {},
     "from": "5491162023318",
-    "refSerialize": "524f6099fd2cc237df26dcfda33db0c6"
+    "refSerialize": "819b7ae4f3b9a0b30a95fdd920abbcae"
   },
   {
-    "ref": "ans_9b8ec194-5bdb-4a9c-b89d-a51f31c2146a",
-    "keyword": "key_feea0b0f-6617-4ab0-9bc9-4de9ca2b19dd",
-    "answer": "Por favor seleccione la Division",
+    "ref": "ans_b911e486-dbd0-4139-941a-ed217c628687",
+    "keyword": "key_ff1a9216-39f8-43c8-ba39-842353adf3d2",
+    "answer": "Validando los datos, por favor aguarde unos instantes... ⏰",
     "options": {
       "media": null,
-      "buttons": [
-        {
-          "body": "A"
-        },
-        {
-          "body": "B"
-        }
-      ],
-      "capture": true,
+      "buttons": [],
+      "capture": false,
       "child": null,
       "delay": 0,
       "nested": [],
       "keyword": {},
-      "callback": true
+      "callback": false
     },
-    "refSerialize": "c7053e612667f57d1ff8f77b99b4dab8",
+    "refSerialize": "22d5d8b291e0626e2e3561b05bb64f57",
     "from": "5491162023318"
   },
   {
-    "ref": "af980e73-1249-439c-8ba6-ac1e91ce77a1",
-    "keyword": "c7053e612667f57d1ff8f77b99b4dab8",
-    "answer": "B",
-    "options": {},
-    "from": "5491162023318",
-    "refSerialize": "7d1f4c73fe1e92b549bdacd1e4381e5f"
+    "ref": "ans_7fdd37c7-be3d-4ad0-9b05-53edb269014d",
+    "keyword": "ans_b911e486-dbd0-4139-941a-ed217c628687",
+    "answer": "\nLamentamos informale que no pudimos encontrar al Alumno en nuestros archivos 😔.\nPor favor envie un mensaje 💬 para poder brindarle soporte ante este inconveniente.\n*soporte@gmail.com* 📧\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 2000,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "64c2dc884a8baf041d256fe85f9ac154",
+    "from": "5491162023318"
   },
   {
-    "ref": "ans_92d07491-5843-447c-8005-22ec593dc19b",
-    "keyword": "key_3cf6251e-ac12-4510-96ca-f9ebf247c682",
-    "answer": "Por favor seleccione el Curso",
+    "ref": "ans_ef10bcd7-5944-44b2-a8bd-b85d33d72885",
+    "keyword": "ans_7fdd37c7-be3d-4ad0-9b05-53edb269014d",
+    "answer": "\nEn caso de equivocación al ingresar el Nro. de Documento, por favor escriba el mensaje *Menu Principal* para volver a visualizar el Menu Principal. 🗃️ \n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "4c644a77a4a14712e82658ff95b9ba6f",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "21a3110a-483a-4511-979e-82662b1b362f",
+    "keyword": "4c644a77a4a14712e82658ff95b9ba6f",
+    "answer": "Menu Principal",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "fcff4d2ede33d9b684252b9258f044b1"
+  },
+  {
+    "ref": "ans_794f2cbb-ea8d-4ead-b3aa-2a0b92cc64c8",
+    "keyword": "key_d26e3d4c-a0c5-4d97-856a-27081e03e4d5",
+    "answer": "Por favor, seleccione la opción a la que desea acceder 🗄️",
     "options": {
       "media": null,
       "buttons": [
         {
-          "body": "1"
+          "body": "Administración 🗃️"
         },
         {
-          "body": "2"
+          "body": "Secundaria 🎓"
         },
         {
-          "body": "3"
+          "body": "Primaria 👨🏻‍💻"
         }
       ],
       "capture": true,
@@ -176,7 +221,316 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "52978248647c1ae13b6c88a74ce71557",
+    "refSerialize": "1b743dec21269c66536b6d803731ceaa",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "be25a4f2-bd37-445a-93e6-b962175b2501",
+    "keyword": "1b743dec21269c66536b6d803731ceaa",
+    "answer": "hola",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_140ba7c8-69f9-48f8-80cf-a86541b3313f",
+    "keyword": "key_22f42044-2d4e-4f2b-a1c2-85fb9e770493",
+    "answer": "Por favor digite la palabra \"Reinicar\" para iniciar nuevamente el servicio 🤖",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "72df3449850f82ce9ed9eed372f13882",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "ans_4d50a982-af03-4224-bd49-b8f939be0c0d",
+    "keyword": "key_0a58a69d-8ac6-44a4-886e-1fc4ed317433",
+    "answer": "\n*Colegio Santa Lucia* 🏫\nEstamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖\nEstamos para ayudarte a resolver la consulta o inconveniente que tengas. 🙂\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "bb4ea6602866a83dcb3b4a91559a1d9d",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "01ba266e-9032-4bbd-aa7a-8ecadbeff35f",
+    "keyword": "bb4ea6602866a83dcb3b4a91559a1d9d",
+    "answer": "Reiniciar",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "7860dc54bc2a9111ee9ba1889be0e588"
+  },
+  {
+    "ref": "ans_4d50a982-af03-4224-bd49-b8f939be0c0d",
+    "keyword": "key_0a58a69d-8ac6-44a4-886e-1fc4ed317433",
+    "answer": "\n*Colegio Santa Lucia* 🏫\nEstamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖\nEstamos para ayudarte a resolver la consulta o inconveniente que tengas. 🙂\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "bb4ea6602866a83dcb3b4a91559a1d9d",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "ans_63df242c-50ac-46d0-91e8-240d3d8ee192",
+    "keyword": "key_8818d32b-ad56-4d2d-adf3-78513760f87f",
+    "answer": "\nPor favor, ingresá tu DNI para validar tu identidad en el sistema.\n*Recordá que el mismo debe ser ingresado sin utilizar puntos (11222333)*\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3542c45df514768c86ea14ff243c1fcf",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "9ab4eb5e-3991-4271-b1f6-01ab9c4e7d80",
+    "keyword": "3542c45df514768c86ea14ff243c1fcf",
+    "answer": "20771757",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "819b7ae4f3b9a0b30a95fdd920abbcae"
+  },
+  {
+    "ref": "ans_dd52b665-f987-4376-a481-2885662a3201",
+    "keyword": "key_f685e7ee-96ea-4f02-a310-a58c5d56e48a",
+    "answer": "Validando los datos, por favor aguarde unos instantes... ⏰",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "61b230f48c238d6d262052c2d442fe4f",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "ans_f09a410b-d364-4e4d-9bc3-350a3e2f4ba6",
+    "keyword": "ans_dd52b665-f987-4376-a481-2885662a3201",
+    "answer": "\nLamentamos informale que no pudimos encontrarlo en nuestros archivos 😔.\nPor favor envie un mensaje 💬 para poder brindarle soporte ante este inconveniente.\n*soporte@gmail.com* 📧\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 2000,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "ce4043466daae85d58b1ce52c2d614c6",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "ans_03f796ae-9eab-4d0c-8710-e3207fb2b02a",
+    "keyword": "ans_f09a410b-d364-4e4d-9bc3-350a3e2f4ba6",
+    "answer": "\nEn caso de equivocación al ingresar el Nro. de Documento, por favor escriba el mensaje *Reiniciar* para volver a iniciar el asistente. 🤖\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "e1bd09c09a1d2c7fa5a47c36333c00d3",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "58ba6df9-4fd0-46ac-bcc8-088604e1b827",
+    "keyword": "e1bd09c09a1d2c7fa5a47c36333c00d3",
+    "answer": "hola",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_4d50a982-af03-4224-bd49-b8f939be0c0d",
+    "keyword": "key_0a58a69d-8ac6-44a4-886e-1fc4ed317433",
+    "answer": "\n*Colegio Santa Lucia* 🏫\nEstamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖\nEstamos para ayudarte a resolver la consulta o inconveniente que tengas. 🙂\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "bb4ea6602866a83dcb3b4a91559a1d9d",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "ans_63df242c-50ac-46d0-91e8-240d3d8ee192",
+    "keyword": "key_8818d32b-ad56-4d2d-adf3-78513760f87f",
+    "answer": "\nPor favor, ingresá tu DNI para validar tu identidad en el sistema.\n*Recordá que el mismo debe ser ingresado sin utilizar puntos (11222333)*\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3542c45df514768c86ea14ff243c1fcf",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "f8174a04-763e-4777-8626-42a773f90515",
+    "keyword": "3542c45df514768c86ea14ff243c1fcf",
+    "answer": "41550112",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "4510174905e5aa87f6943424f5be9263"
+  },
+  {
+    "ref": "ans_794f2cbb-ea8d-4ead-b3aa-2a0b92cc64c8",
+    "keyword": "key_d26e3d4c-a0c5-4d97-856a-27081e03e4d5",
+    "answer": "Por favor, seleccione la opción a la que desea acceder 🗄️",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Administración 🗃️"
+        },
+        {
+          "body": "Secundaria 🎓"
+        },
+        {
+          "body": "Primaria 👨🏻‍💻"
+        }
+      ],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "1b743dec21269c66536b6d803731ceaa",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "a5c9e71e-ae63-4916-840c-e6a6de58d438",
+    "keyword": "1b743dec21269c66536b6d803731ceaa",
+    "answer": "Secundaria 🎓",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "22cd0352c60c349a4eafb641b70244b7"
+  },
+  {
+    "ref": "ans_419180d0-a54d-451f-8839-123725c4c184",
+    "keyword": "key_d1f9f408-75c0-4ff2-9987-69af0107308d",
+    "answer": "\n*Sector Secundaria 🎓*\nPor favor, seleccione la opción a la que desea acceder 🗄️\n",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Consultar Notas 🧾"
+        }
+      ],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "87173059108231e6d4887893be88739c",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "11373f4e-16da-4753-8539-cb9c5e766c7f",
+    "keyword": "87173059108231e6d4887893be88739c",
+    "answer": "Consultar Notas 🧾",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "c3be90a964d0befd1e5a1a9a082256bd"
+  },
+  {
+    "ref": "ans_0ccdedaf-05f3-4dc3-9282-48b76c3000b4",
+    "keyword": "key_2a6a2e06-ff9a-495c-a322-6da7384ebf69",
+    "answer": "\nPor favor, ingresá el DNI del Alumno para validar su identidad en el sistema.\n*Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "0db135ca539d1fb2c8b5177bd60d4c38",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "96b9c659-c000-4602-849d-ba63e08d7c2c",
+    "keyword": "0db135ca539d1fb2c8b5177bd60d4c38",
+    "answer": "41550112",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "4510174905e5aa87f6943424f5be9263"
+  },
+  {
+    "ref": "ans_794f2cbb-ea8d-4ead-b3aa-2a0b92cc64c8",
+    "keyword": "key_d26e3d4c-a0c5-4d97-856a-27081e03e4d5",
+    "answer": "Por favor, seleccione la opción a la que desea acceder 🗄️",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Administración 🗃️"
+        },
+        {
+          "body": "Secundaria 🎓"
+        },
+        {
+          "body": "Primaria 👨🏻‍💻"
+        }
+      ],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "1b743dec21269c66536b6d803731ceaa",
     "from": "5491162023318"
   }
 ]

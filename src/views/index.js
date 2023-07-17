@@ -1,27 +1,30 @@
-// Barrels vistas
+// Barrels
 import { barrelAdministration } from './views_administration/index.js'
 import { barrelPrimary } from './views_primary/index.js'
 import { barrelSecundary } from './views_secundary/index.js'
-import { barrelMenuGrado } from './menu_grado/index.js'
+import { barrelValidadores } from './views_validators/index.js'
+import { barrelUsuariosDesconocidos } from './views_unknow_users/index.js'
 
 // Vistas
+import { flujoAdios } from './by.view.js'
 import { flujoHola } from './hello.view.js'
 import { flujoMenuPrincipal } from './main_menu.view.js'
-import { flujoUsuarioDeconocido } from './unknow_user.view.js'
-import { flujoReinicioMenuPrincipal } from './reboot_main_menu.view.js'
-import { flujoAdios } from './by.view.js'
+import { flujoReinicioSistema } from './reboot_system.view.js'
+import { flujoQuedarse } from './stay.view.js'
 
 // Barrel principal, de aqui exporto todos los flujos hacia afuera de views
 // Puedo cargar Barrels de otros sectores
 export const barrel = {
+  flujoAdios,
   flujoHola,
   flujoMenuPrincipal,
+  flujoReinicioSistema,
+  flujoQuedarse,
+  // Barrels
   barrelAdministration,
   barrelPrimary,
   barrelSecundary,
-  barrelMenuGrado,
-  flujoUsuarioDeconocido,
-  flujoReinicioMenuPrincipal,
-  flujoAdios
+  barrelValidadores,
+  barrelUsuariosDesconocidos
 }; 
 
