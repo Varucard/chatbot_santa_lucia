@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "ref": "12e5dc9f-6fc0-48c5-a844-f131b8738deb",
+    "keyword": "4510174905e5aa87f6943424f5be9263",
+    "answer": "Validador Alumnos",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "328d9d272f4a50f4891f5e6ac2903e23"
+  },
+  {
+    "ref": "ans_4dbefa2a-b5b0-49a7-99f8-726d0a2a2467",
+    "keyword": "key_8cebc174-69bf-494c-ac81-55ebe94406a8",
+    "answer": "\nPor favor, ingresá el DNI del Alumno/a 👩🏻🧑🏻 para validar su identidad en el sistema 🤖.\n*Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "b44e226d270dd64a3b66e72c99dca0e1",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "78986bbd-0d16-4ca4-9ae7-fdf6946e9d35",
+    "keyword": "b44e226d270dd64a3b66e72c99dca0e1",
+    "answer": "41550112",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "4510174905e5aa87f6943424f5be9263"
+  },
+  {
+    "ref": "6543d35c-44c9-45c5-81e2-6a948084e05b",
+    "answer": "Aguarde un instante",
+    "options": {
+      "media": "files/secundaria/41550112.pdf",
+      "buttons": [],
+      "capture": false
+    },
+    "from": "5491162023318",
+    "refSerialize": "aedff437dc7d3f56737a6bf1c7865df8"
+  },
+  {
+    "ref": "a7645242-789b-42af-9ef9-6f6cdd39a301",
+    "keyword": "4510174905e5aa87f6943424f5be9263",
+    "answer": "Validador Alumnos",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "328d9d272f4a50f4891f5e6ac2903e23"
+  },
+  {
+    "ref": "ans_4dbefa2a-b5b0-49a7-99f8-726d0a2a2467",
+    "keyword": "key_8cebc174-69bf-494c-ac81-55ebe94406a8",
+    "answer": "\nPor favor, ingresá el DNI del Alumno/a 👩🏻🧑🏻 para validar su identidad en el sistema 🤖.\n*Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "b44e226d270dd64a3b66e72c99dca0e1",
+    "from": "5491162023318"
+  },
+  {
+    "ref": "287684a5-a3c1-4774-a4ac-dc85495b7cc7",
+    "keyword": "b44e226d270dd64a3b66e72c99dca0e1",
+    "answer": "41550112",
+    "options": {},
+    "from": "5491162023318",
+    "refSerialize": "4510174905e5aa87f6943424f5be9263"
+  },
+  {
+    "ref": "ec2748df-ab9e-4d3e-b842-49136afed28d",
+    "answer": "Aguarde un instante",
+    "options": {
+      "media": "files/secundaria/41550112.pdf",
+      "buttons": [],
+      "capture": false
+    },
+    "from": "5491162023318",
+    "refSerialize": "aedff437dc7d3f56737a6bf1c7865df8"
+  }
+]

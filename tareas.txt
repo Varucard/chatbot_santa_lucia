@@ -1,4 +1,3 @@
-3- Consultar tipos de DNI validos
 4- Desarrollar una vista para Usuarios que no esten registrados en el sistema pero quieran informacion de la institución
 5- Desarrollar entrega de archivo una vez validada la identidad del Alumno
 6- Destiempo de mensajes
