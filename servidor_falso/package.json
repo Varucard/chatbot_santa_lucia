@@ -1,0 +1,18 @@
+{
+  "name": "servidor_falso",
+  "version": "1.0.0",
+  "description": "un servidor de pruebas",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm-start"
+  },
+  "author": "ChatGPT",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1"
+  }
+}
