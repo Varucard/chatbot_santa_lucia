@@ -1,10 +1,35 @@
-1- Consultar mensaje de bienvenida
-2- Validador de DNI
 3- Consultar tipos de DNI validos
-4- Listado de mensajes de inicio de ChatBot
-5- Menu de opciones - Trabajo con Botones
-6- Sub menu con pedido de datos
-7- Entrega de archivos
-8- Finalización de flujo con inicio de uno nuevo
-9- Roturas de flujos
-10- Cambios de flujos
+4- Desarrollar una vista para Usuarios que no esten registrados en el sistema pero quieran informacion de la institución
+5- Desarrollar entrega de archivo una vez validada la identidad del Alumno
+6- Destiempo de mensajes
+7- Implementar endFlow
+8- Implementar fallBack
+
+Vistas
+- hello (Terminada) 'Hola, quisiera solicitar información a la institución', 'hola', 'Hola'
+- validator_tutors 'Validador Tutores'
+- restart_wizard_tutor (Terminada) 'DNI Desconocido Tutor'
+- main_menu (Termiado) 'Menu Principal'
+- reboot_system (Terminado) 'Reinicio Sistema'
+- Administracion y Primaria no poseen opciones por el momento pero se encuentran terminados.
+- menu_secundary (Terminado) 'Menu Secundaria'
+- validator_student (Terminado) 'Validador Alumno'
+- restart_wizard_student (Terminado) 'DNI Desconocdio Alumno'
+- delivery_notes (Proceso) 'Entrega Notas'
+- stay (Terminado) 'Quedarse'
+- by (Terminado) 'Adios'
+
+Menus
+- main_menu (Terminado) {
+  - menu_administration {
+    - VACIO
+  }
+  - menu_primary (Terminado) {
+    - VACIO
+  }
+  - menu_secundary (Terminado) {
+    - consultar Notas {
+      - menu_grado
+    }
+  }
+}
