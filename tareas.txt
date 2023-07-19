@@ -1,6 +1,9 @@
 3- Consultar tipos de DNI validos
 4- Desarrollar una vista para Usuarios que no esten registrados en el sistema pero quieran informacion de la institución
 5- Desarrollar entrega de archivo una vez validada la identidad del Alumno
+6- Destiempo de mensajes
+7- Implementar endFlow
+8- Implementar fallBack
 
 Vistas
 - hello (Terminada) 'Hola, quisiera solicitar información a la institución', 'hola', 'Hola'
@@ -12,7 +15,7 @@ Vistas
 - menu_secundary (Terminado) 'Menu Secundaria'
 - validator_student (Terminado) 'Validador Alumno'
 - restart_wizard_student (Terminado) 'DNI Desconocdio Alumno'
-- Entrega notas (Realizar)
+- delivery_notes (Proceso) 'Entrega Notas'
 - stay (Terminado) 'Quedarse'
 - by (Terminado) 'Adios'
 
@@ -30,14 +33,3 @@ Menus
     }
   }
 }
-
-- menu_grado {
-  - menu_turno (T.T - T.M) {
-    - menu_curso (1-2-3-4-5-6) {
-      - menu_division (A-B) {
-        Facilito la nota
-      }
-    }
-  }
-}
-

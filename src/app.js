@@ -27,6 +27,7 @@ const main = async () => {
     barrel.flujoMenuPrincipal,
     barrel.flujoReinicioSistema,
     barrel.flujoQuedarse,
+    barrel.flujoEntregaNotas,
     // Barrels Menu Administración 
     barrel.barrelAdministration.flujoMenuAdministracion,
     // Barrels Menu Primaria 

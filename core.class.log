@@ -1,0 +1,12 @@
+[handleMsg]:  {
+  type: 'text',
+  from: '5491162023318',
+  to: '5491171357119',
+  body: 'Validador Alumnos'
+}
+[handleMsg]:  {
+  type: 'text',
+  from: '5491162023318',
+  to: '5491171357119',
+  body: '41550112'
+}

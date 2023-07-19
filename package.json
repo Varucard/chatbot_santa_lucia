@@ -13,10 +13,12 @@
         "@bot-whatsapp/cli": "latest",
         "@bot-whatsapp/database": "latest",
         "@bot-whatsapp/provider": "latest",
-        "axios": "^1.2.1",
+        "axios": "^1.4.0",
         "body-parser": "^1.20.1",
         "dotenv": "^16.3.1",
         "exceljs": "^4.3.0",
+        "form-data": "^4.0.0",
+        "fs": "^0.0.1-security",
         "polka": "^0.5.2"
     },
     "author": "",
