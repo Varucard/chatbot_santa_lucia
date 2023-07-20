@@ -3,6 +3,7 @@
 6- Destiempo de mensajes
 7- Implementar endFlow
 8- Implementar fallBack
+9- Implementar variables .env
 
 Vistas
 - hello (Terminada) 'Hola, quisiera solicitar información a la institución', 'hola', 'Hola'

@@ -1,76 +1,40 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5491173685138@s.whatsapp.net',
+    remoteJid: '5491162023318@s.whatsapp.net',
     fromMe: false,
-    id: '2F9D5299862FB2E0E689DCB334A274C9',
+    id: '3EB095DF5094239AF4187F',
     participant: undefined
   },
-  messageTimestamp: 1689790401,
-  pushName: 'abru',
+  messageTimestamp: 1689874464,
+  pushName: 'Cristian Marquez',
   broadcast: false,
   message: Message {
-    conversation: 'bien, no fue tanta gente hoy',
+    conversation: 'hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'bien, no fue tanta gente hoy',
-  from: '5491173685138'
+  body: 'hola',
+  from: '5491162023318'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491173685138@s.whatsapp.net',
+    remoteJid: '5491162023318@s.whatsapp.net',
     fromMe: false,
-    id: '8D565DBB6F0EE2974AEBE083014102CC',
+    id: '3EB0EB24C89236AE0186B2',
     participant: undefined
   },
-  messageTimestamp: 1689790405,
-  pushName: 'abru',
+  messageTimestamp: 1689874467,
+  pushName: 'Cristian Marquez',
   broadcast: false,
   message: Message {
-    conversation: 'estaba feo el día',
+    conversation: '41550112',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'estaba feo el día',
-  from: '5491173685138'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491173685138@s.whatsapp.net',
-    fromMe: false,
-    id: 'CA7D81FD1D2CF90993D8ED5CFF4B4E6A',
-    participant: undefined
-  },
-  messageTimestamp: 1689790410,
-  pushName: 'abru',
-  broadcast: false,
-  message: Message {
-    stickerMessage: StickerMessage {
-      url: 'https://mmg.whatsapp.net/v/t62.15575-24/26452777_2044760089203779_5266564887170846930_n.enc?ccb=11-4&oh=01_AdSBiXYuyTnBB_vn128c6it2y913pQsxDsnQOmZJ-A3y9g&oe=64DF8628&mms3=true',
-      fileSha256: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      mediaKey: [Uint8Array],
-      mimetype: 'image/webp',
-      height: 64,
-      width: 64,
-      directPath: '/v/t62.15575-24/26452777_2044760089203779_5266564887170846930_n.enc?ccb=11-4&oh=01_AdSBiXYuyTnBB_vn128c6it2y913pQsxDsnQOmZJ-A3y9g&oe=64DF8628',
-      fileLength: [Long],
-      mediaKeyTimestamp: [Long],
-      firstFrameLength: 9944,
-      firstFrameSidecar: [Uint8Array],
-      isAnimated: true,
-      stickerSentTs: [Long],
-      isAvatar: false
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '',
-  from: '5491173685138'
+  body: '41550112',
+  from: '5491162023318'
 }

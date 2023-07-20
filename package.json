@@ -1,27 +1,27 @@
 {
-    "name": "base-bailey-json",
+    "name": "chatbot_santa_lucia",
     "version": "1.0.0",
-    "description": "",
+    "description": "ChatBot para el Colegio Santa Lucia",
     "main": "app.js",
     "scripts": {
-        "pre-copy": "cd .. && npm run  copy.lib base-baileys-json",
+        "pre-copy": "cd .. && npm run  copy.lib chatbot_santa_lucia",
         "start": "node src/app.js"
     },
     "keywords": [],
     "dependencies": {
-        "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
-        "@adiwajshing/keyed-db": "^0.2.4",
-        "@bot-whatsapp/bot": "latest",
-        "@bot-whatsapp/cli": "latest",
-        "@bot-whatsapp/database": "latest",
-        "@bot-whatsapp/portal": "latest",
-        "@bot-whatsapp/provider": "latest",
-        "exceljs": "^4.3.0",
-        "mime-types": "2.1.35",
-        "wa-sticker-formatter": "4.3.2",
-        "xlsx-populate": "^1.21.0"
+      "@bot-whatsapp/bot": "latest",
+      "@bot-whatsapp/cli": "latest",
+      "@bot-whatsapp/database": "latest",
+      "@bot-whatsapp/provider": "latest",
+      "@bot-whatsapp/portal": "latest",
+      "mysql2": "^2.3.3",
+      "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
+      "@adiwajshing/keyed-db": "^0.2.4",
+      "wa-sticker-formatter": "4.3.2",
+      "exceljs":  "^4.3.0",
+      "dotenv": "^16.3.1"
     },
-    "author": "",
+    "author": "OnlyVarucard",
     "license": "ISC",
     "type": "module"
 }
