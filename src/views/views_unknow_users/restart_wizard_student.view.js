@@ -13,5 +13,5 @@ Por favor envie un mensaje 💬 para poder brindarle soporte ante este inconveni
 *soporte@gmail.com* 📧
 `, {delay: 2000})
 .addAnswer(`
-En caso de equivocación al ingresar el Nro. de Documento, por favor escriba el mensaje *Menu Principal* para volver a visualizar el Menu Principal. 🗃️ 
+En caso de equivocación al ingresar el Nro. de Documento, por favor escriba el mensaje *Menu Principal* para volver a visualizar las opciones. 
 `, {delay: 2000})

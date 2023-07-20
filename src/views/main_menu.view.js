@@ -9,24 +9,32 @@ import { barrel } from './index.js'
  * En caso de recibir algo incorrecto el sistema pide el reinicio
  */
 export const flujoMenuPrincipal = addKeyword(['Menu Principal'])
-.addAnswer(['Por favor, seleccione la opción a la que desea acceder 🗄️'],
+.addAnswer([`
+  Por favor, digite y envie el numero la opción a la que desea acceder 🗄️
+
+    1 - Administración 🗃️
+    2 - Secundaria 🎓
+    3 - Primaria 👨🏻‍💻
+
+  `],
 {
   capture: true,
-  buttons: [{body: 'Administración 🗃️'}, {body: 'Secundaria 🎓'}, {body: 'Primaria 👨🏻‍💻'}],
-}, async (ctx, {gotoFlow}) => {
+}, async (ctx, {gotoFlow, fallBack}) => {
   switch (ctx.body) {
-    case 'Administración 🗃️':
-      gotoFlow(barrel.barrelAdministration.flujoMenuAdministracion)
+    case '1':
+      await gotoFlow(barrel.barrelAdministration.flujoMenuAdministracion)
       break;
-    case 'Secundaria 🎓':
-      gotoFlow(barrel.barrelSecundary.flujoMenuSecundaria)
+
+    case '2':
+      await gotoFlow(barrel.barrelSecundary.flujoMenuSecundaria)
       break;
-    case 'Primaria 👨🏻‍💻':
-      gotoFlow(barrel.barrelPrimary.flujoMenuPrimaria)
+      
+    case '3':
+      await gotoFlow(barrel.barrelPrimary.flujoMenuPrimaria)
       break;
 
     default:
-      gotoFlow(barrel.flujoReinicioSistema)
+      fallBack()
       break;
   }  
 })

@@ -8,20 +8,22 @@ import { barrel } from '../index.js'
  */
 export const flujoMenuSecundaria = addKeyword(['Menu Secundaria'])
 .addAnswer([`
-*Sector Secundaria 🎓*
-Por favor, seleccione la opción a la que desea acceder 🗄️
+  *Sector Secundaria 🎓*
+  Por favor, digite y envie el numero la opción a la que desea acceder 🗄️
+
+    1 - Consultar Notas 🧾
+
 `],
 {
   capture: true,
-  buttons: [{body: 'Consultar Notas 🧾'}]
-}, async (ctx, {gotoFlow}) => {
+}, async (ctx, {gotoFlow, fallBack}) => {
   switch (ctx.body) {
-    case 'Consultar Notas 🧾':
+    case '1':
       gotoFlow(barrel.barrelValidadores.flujoValidadorAlumno)
       break;
 
     default:
-      gotoFlow(barrel.flujoReinicioSistema)
+      fallBack()
       break;
   }
 })

@@ -1,12 +1,10 @@
 4- Desarrollar una vista para Usuarios que no esten registrados en el sistema pero quieran informacion de la institución
 5- Desarrollar entrega de archivo una vez validada la identidad del Alumno
-6- Destiempo de mensajes
 7- Implementar endFlow
-8- Implementar fallBack
-9- Implementar variables .env
+8- Probar entrega de archivos con URL compuestas
 
 Vistas
-- hello (Terminada) 'Hola, quisiera solicitar información a la institución', 'hola', 'Hola'
+- hello (Terminada) 'hola', 'Hola', 'Reiniciar', 'reiniciar'
 - validator_tutors 'Validador Tutores'
 - restart_wizard_tutor (Terminada) 'DNI Desconocido Tutor'
 - main_menu (Termiado) 'Menu Principal'
