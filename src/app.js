@@ -36,7 +36,6 @@ const main = async () => {
     barrel.flujoMenuPrincipal,
     barrel.flujoReinicioSistema,
     barrel.flujoQuedarse,
-    barrel.flujoEntregaNotas,
     // Barrels Menu Administración 
     barrel.barrelAdministration.flujoMenuAdministracion,
     // Barrels Menu Primaria 
@@ -49,7 +48,9 @@ const main = async () => {
     // Barrels Usuarios Desconocidos
     barrel.barrelUsuariosDesconocidos.flujoAlumnoDesconocido,
     barrel.barrelUsuariosDesconocidos.flujoAlumnoDesconocido,
-    barrel.barrelUsuariosDesconocidos.flujoTutorDesconocido 
+    barrel.barrelUsuariosDesconocidos.flujoTutorDesconocido,
+    // Barrels Archivos
+    barrel.barrelArchivos.flujoEntregaNotas,
   ])
   const adapterProvider = createProvider(BaileysProvider)
 

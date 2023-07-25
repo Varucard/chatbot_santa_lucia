@@ -14,4 +14,4 @@ export const flujoHola = addKeyword(['hola', 'Hola', 'Reiniciar', 'reiniciar'])
 Estamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖
 Estamos para ayudarte a resolver la consulta o inconveniente que tengas. 🙂
 `)
-.addAction((ctx, {gotoFlow}) =>gotoFlow(barrel.barrelValidadores.flujoValidadorTutores))
+.addAction((ctx, {gotoFlow}) => gotoFlow(barrel.barrelValidadores.flujoValidadorTutores))

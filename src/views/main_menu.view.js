@@ -10,11 +10,11 @@ import { barrel } from './index.js'
  */
 export const flujoMenuPrincipal = addKeyword(['Menu Principal'])
 .addAnswer([`
-  Por favor, digite y envie el numero la opción a la que desea acceder 🗄️
+Por favor, digite y envie el numero la opción a la que desea acceder 🗄️
 
-    1 - Administración 🗃️
-    2 - Secundaria 🎓
-    3 - Primaria 👨🏻‍💻
+  1 - Administración 🗃️
+  2 - Secundaria 🎓
+  3 - Primaria 👨🏻‍💻
 
   `],
 {
@@ -26,7 +26,7 @@ export const flujoMenuPrincipal = addKeyword(['Menu Principal'])
       break;
 
     case '2':
-      await gotoFlow(barrel.barrelSecundary.flujoMenuSecundaria)
+      await gotoFlow(barrel.barrelValidadores.flujoValidadorAlumno)
       break;
       
     case '3':

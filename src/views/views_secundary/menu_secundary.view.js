@@ -8,10 +8,10 @@ import { barrel } from '../index.js'
  */
 export const flujoMenuSecundaria = addKeyword(['Menu Secundaria'])
 .addAnswer([`
-  *Sector Secundaria 🎓*
-  Por favor, digite y envie el numero la opción a la que desea acceder 🗄️
+*Sector Secundaria 🎓*
+Por favor, digite y envie el numero la opción a la que desea acceder 🗄️
 
-    1 - Consultar Notas 🧾
+  1 - Consultar Notas 🧾
 
 `],
 {
@@ -19,7 +19,7 @@ export const flujoMenuSecundaria = addKeyword(['Menu Secundaria'])
 }, async (ctx, {gotoFlow, fallBack}) => {
   switch (ctx.body) {
     case '1':
-      gotoFlow(barrel.barrelValidadores.flujoValidadorAlumno)
+      gotoFlow(barrel.barrelArchivos.flujoEntregaNotas)
       break;
 
     default:

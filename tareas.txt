@@ -1,7 +1,7 @@
 4- Desarrollar una vista para Usuarios que no esten registrados en el sistema pero quieran informacion de la institución
 5- Desarrollar entrega de archivo una vez validada la identidad del Alumno
 7- Implementar endFlow
-8- Probar entrega de archivos con URL compuestas
+8- Actualizar el diagrama de flujo con las vistas, función de las mismas junto a los Menus
 
 Vistas
 - hello (Terminada) 'hola', 'Hola', 'Reiniciar', 'reiniciar'
