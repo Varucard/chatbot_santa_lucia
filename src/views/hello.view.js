@@ -3,12 +3,15 @@ const { addKeyword } = pkg;
 
 import { barrel } from './index.js'
 
+// Listado de palabras que el Bot acepta
+let listado = ['hola', 'Hola','Buenos días', 'Buenos dias', 'buenos dias', 'Reiniciar', 'reiniciar'];
+
 /**
  * Flujo de bienvenida.
  * Mensaje de bienvenida que visualiza el Usuario por primera vez
  * Te envia a Validador de Tutores
  */
-export const flujoHola = addKeyword(['hola', 'Hola', 'Reiniciar', 'reiniciar'])
+export const flujoHola = addKeyword(listado)
 .addAnswer(`
 *Colegio Santa Lucia* 🏫
 Estamos felices de poder darte la bienvenida a nuestro chat Institucional. 🤖

@@ -3,6 +3,7 @@ const { addKeyword } = pkg;
 
 /**
  * Flujo de Reinicio al Menu Principal
+ * El usuario podra visualizar esta vista cuando necesite reiniciar el sistema
  */
 export const flujoReinicioSistema = addKeyword(['Reinicio Sistema'])
-.addAnswer('Por favor digite y envie el mensaje "Reinicar" para iniciar nuevamente el servicio 🤖')
+.addAction((ctx, {endFlow}) => endFlow('Por favor envie el mensaje *Reiniciar* para volver a iniciar el servicio 🤖'))

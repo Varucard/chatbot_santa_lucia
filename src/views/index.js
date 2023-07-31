@@ -12,6 +12,7 @@ import { flujoHola } from './hello.view.js'
 import { flujoMenuPrincipal } from './main_menu.view.js'
 import { flujoReinicioSistema } from './reboot_system.view.js'
 import { flujoQuedarse } from './stay.view.js'
+import { flujoUsuarioDeconocido } from './unknow_user.view.js'
 
 // Barrel principal, de aqui exporto todos los flujos hacia afuera de views
 // Puedo cargar Barrels de otros sectores
@@ -21,6 +22,7 @@ export const barrel = {
   flujoMenuPrincipal,
   flujoReinicioSistema,
   flujoQuedarse,
+  flujoUsuarioDeconocido,
   // Barrels
   barrelAdministration,
   barrelPrimary,

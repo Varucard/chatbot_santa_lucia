@@ -5,6 +5,7 @@ import { barrel } from '../index.js'
 
 /**
  * Flujo Menu Secundaria (Consultar Notas)
+ * El Usario visualizara este Menu al seleccionar la opción de Secundaria en el Menu Principal
  */
 export const flujoMenuSecundaria = addKeyword(['Menu Secundaria'])
 .addAnswer([`
