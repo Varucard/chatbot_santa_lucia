@@ -3,7 +3,9 @@ const { addKeyword } = pkg;
 
 import { validateDNI } from '../../security/validate.js'
 import { barrel } from '../index.js';
-import { crearArchivo } from '../../file/files.js';
+
+// Guardo el DNI de Alumno y lo expando a donde lo necesito
+export let dniUser = 0;
 
 /**
  * Flujo Validador Estudiantes.
@@ -16,7 +18,8 @@ Para visualizar las opciones ingresá el DNI del Alumno/a 👩🏻🧑🏻 para 
 *Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*
 `, {capture: true}, async (ctx, {gotoFlow}) => {
   
-  if (await validateDNI('files/alumnos/dni_alumnos.xlsx', '1a', ctx.body) && await crearArchivo(ctx.body)) {
+  if (await validateDNI('files/alumnos/dni_alumnos.xlsx', '1a', ctx.body)) {
+    dniUser = ctx.body
     await gotoFlow(barrel.barrelSecundary.flujoMenuSecundaria)
   } else {
     await gotoFlow(barrel.barrelUsuariosDesconocidos.flujoAlumnoDesconocido)
