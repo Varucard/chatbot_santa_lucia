@@ -1,3 +1,7 @@
+// Obtengo los datos del .env
+import dotenv from 'dotenv';
+dotenv.config();
+
 import pkg from '@bot-whatsapp/bot';
 const { addKeyword } = pkg;
 
@@ -18,7 +22,7 @@ Para visualizar las opciones ingresá el DNI del Alumno/a 👩🏻🧑🏻 para 
 *Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*
 `, {capture: true}, async (ctx, {gotoFlow}) => {
   
-  if (await validateDNI('files/alumnos/dni_alumnos.xlsx', '1a', ctx.body)) {
+  if (await validateDNI(process.env.EXCEL_STUDENTS, process.env.EXCEL_STUDENTS_SHEET, ctx.body)) {
     dniUser = ctx.body
     await gotoFlow(barrel.barrelSecundary.flujoMenuSecundaria)
   } else {

@@ -4,7 +4,7 @@ const { addKeyword } = pkg;
 import { barrel } from './index.js'
 
 // Listado de palabras que el Bot acepta
-let listado = ['hola', 'Hola','Buenos días', 'Buenos dias', 'buenos dias', 'Reiniciar', 'reiniciar'];
+let listado = ['hola', 'Hola','Buenos días', 'Buenos dias', 'buenos dias', 'Reiniciar', 'reiniciar', 'ChatBot', 'chatbot', 'Chatbot'];
 
 /**
  * Flujo de bienvenida.

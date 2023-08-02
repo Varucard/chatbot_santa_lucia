@@ -26,7 +26,8 @@ npm start
 # Chatbot orientado a trabajar en un entorno institucional
 
 ## Caracteristias:
-  - Permite leer archivos Excels para realizar una validación simple con un valor (DNI)
+  - Permite leer archivos Excel para realizar una validación simple con un valor (DNI)
+  - Permite encontrar un valor en un archivo Excel con la busqueda por columna y traer todo la información de la fila donde se hizo el matcheo
   - Sistema de Modularización por BARRELS para exportación de flujos
   - Sistema de Carpetas para Modularización
   - Pequeño sistema de Creación, Lectura y Eliminación de archivos
@@ -36,11 +37,12 @@ npm start
   ```
   - Flujos
     * by (endFlow) ['Adios']
-    * hello ['hola', 'Hola','Buenos días', 'Buenos dias', 'buenos dias', 'Reiniciar', 'reiniciar']
+    * hello ['hola', 'Hola','Buenos días', 'Buenos dias', 'buenos dias', 'Reiniciar', 'reiniciar', 'ChatBot', 'chatbot', 'Chatbot']
     * main_menu ['Menú Principal', 'Menu Principal', 'menu principal']
     * reboot_system (endFlow) ['Reinicio Sistema']
     * stay (endFlow) ['Quedarse']
     * unknow_user (endFlow) ['DNI Desconocido']
+    * new_user (endFlow) ['Hola, quisiera recibir información de la institución', 'informacion', 'Información', 'información']
 
   - Menu Administración
     * menu_administration (endFlow) ['Flujo Administracion']

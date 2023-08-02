@@ -37,6 +37,7 @@ const main = async () => {
     barrel.flujoReinicioSistema,
     barrel.flujoQuedarse,
     barrel.flujoUsuarioDeconocido,
+    barrel.flujoNuevoUsuario,
     // Barrels Menu Administración 
     barrel.barrelAdministration.flujoMenuAdministracion,
     // Barrels Menu Primaria 

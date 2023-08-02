@@ -1,3 +1,7 @@
+// Obtengo los datos del .env
+import dotenv from 'dotenv';
+dotenv.config();
+
 import pkg from '@bot-whatsapp/bot';
 const { addKeyword } = pkg;
 
@@ -15,7 +19,7 @@ Por favor, ingresá tu DNI para validar tu identidad en el sistema 🤖.
 *Recordá que el mismo debe ser ingresado sin utilizar puntos (11222333)*
 `, {capture: true}, async (ctx, {gotoFlow}) => {
 
-  if (await validateDNI('files/tutores/dni_tutores.xlsx', '1a', ctx.body)) {
+  if (await validateDNI(process.env.EXCEL_TUTORS, process.env.EXCEL_TUTORS_SHEET, ctx.body)) {
     await gotoFlow(barrel.flujoMenuPrincipal)
   } else {
     await gotoFlow(barrel.barrelUsuariosDesconocidos.flujoTutorDesconocido)
