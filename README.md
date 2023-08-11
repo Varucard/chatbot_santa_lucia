@@ -106,4 +106,8 @@ npm start
   ```
 ### Tareas
 
-- Desarrollar una vista para Usuarios que no esten registrados en el sistema pero quieran informacion de la institución
+- Agregar la Opción de Salida en los Menus
+- Indicar si es el DNI del Tutor o del Alumno
+- Agregar opción de visualizar facturas (Menu Administración)
+- Actualizar diagrama
+- Probar carga con Jmeter
