@@ -8,7 +8,8 @@ const { addKeyword } = pkg;
  */
 export const flujoAdios = addKeyword(['Adios']).addAction((ctx, { endFlow }) =>
   endFlow(`
-Gracias por utilizar nuestro nuevo asistente virtual 🤖. Para futuras consultas por favor digite y envie el mensaje *Hola* para recibir nuestra asistencia nuevamente.
+Gracias por utilizar nuestro nuevo asistente virtual 🤖.
+Para futuras consultas por favor digite y envie el mensaje *Hola* para recibir nuestra asistencia nuevamente.
 
 Que tenga buen día ¡Adios! 👋🏽
 `),

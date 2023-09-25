@@ -9,7 +9,7 @@ import { validateDNI } from '../../security/validate.js';
 import { barrel } from '../index.js';
 
 // Guardo el DNI de Alumno y lo expando a donde lo necesito
-export let dniUser = 0;
+export let dniStudent = 0;
 
 /**
  * Flujo Validador Estudiantes.
@@ -18,13 +18,13 @@ export let dniUser = 0;
  */
 export const flujoValidadorAlumno = addKeyword(['Validador Alumnos']).addAnswer(
   `
-Por favor, para visualizar todas las opciones ingresá el *Nro. del Documento del Alumno/a* 👩🏻🧑🏻 para validar su identidad en el sistema 🤖.
+Por favor, para visualizar todas las opciones digita y envia el *Nro. del Documento del Alumno/a* 👩🏻🧑🏻 para validar su identidad en el sistema 🤖.
 *Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*
 `,
   { capture: true },
   async (ctx, { gotoFlow }) => {
     if (await validateDNI(process.env.EXCEL_STUDENTS, process.env.EXCEL_STUDENTS_SHEET, ctx.body)) {
-      dniUser = ctx.body;
+      dniStudent = ctx.body;
       await gotoFlow(barrel.barrelSecundary.flujoMenuSecundaria);
     } else {
       await gotoFlow(barrel.barrelUsuariosDesconocidos.flujoAlumnoDesconocido);

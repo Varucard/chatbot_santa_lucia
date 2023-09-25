@@ -43,6 +43,7 @@ const main = async () => {
     barrel.barrelPrimary.flujoMenuPrimaria,
     // Barrels Menu Secundaria
     barrel.barrelSecundary.flujoMenuSecundaria,
+    barrel.barrelSecundary.flujoMenuSecundariaNotas,
     // Barrels Validadores
     barrel.barrelValidadores.flujoValidadorAlumno,
     barrel.barrelValidadores.flujoValidadorTutores,
@@ -52,6 +53,8 @@ const main = async () => {
     barrel.barrelUsuariosDesconocidos.flujoTutorDesconocido,
     // Barrels Archivos
     barrel.barrelArchivos.flujoEntregaNotas,
+    barrel.barrelArchivos.flujoArchivoDeconocido,
+    barrel.barrelArchivos.flujoValidarArchivo,
   ]);
   const adapterProvider = createProvider(BaileysProvider);
 

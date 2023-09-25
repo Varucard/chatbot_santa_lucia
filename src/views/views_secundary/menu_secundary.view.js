@@ -11,7 +11,7 @@ export const flujoMenuSecundaria = addKeyword(['Menu Secundaria']).addAnswer(
   [
     `
 *Sector Secundaria 🎓*
-Por favor, digite y envie el numero la opción a la que desea acceder 🗄️
+Por favor, digite y envie el numero de la opción a la que desea acceder 🗄️
 
   *1 - Consultar Notas* 🧾
 
@@ -24,7 +24,11 @@ Por favor, digite y envie el numero la opción a la que desea acceder 🗄️
   async (ctx, { gotoFlow, fallBack }) => {
     switch (ctx.body) {
       case '1':
-        gotoFlow(barrel.barrelArchivos.flujoEntregaNotas);
+        gotoFlow(barrel.barrelSecundary.flujoMenuSecundariaNotas);
+        break;
+
+      case '2':
+        await gotoFlow(barrel.flujoAdios);
         break;
 
       default:

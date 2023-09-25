@@ -28,6 +28,10 @@ Por favor, digite y envie el numero la opción a la que desea acceder 🗄️
         gotoFlow(barrel.barrelArchivos.flujoEntregaNotas);
         break;
 
+      case '2':
+        await gotoFlow(barrel.flujoAdios);
+        break;
+
       default:
         fallBack();
         break;

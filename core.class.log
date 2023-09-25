@@ -1,0 +1,80 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB019808032670CC0E42B',
+    participant: undefined
+  },
+  messageTimestamp: 1695673105,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Validador Alumnos',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Validador Alumnos',
+  from: '5491162023318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB01E88ECA31BB55DE2A5',
+    participant: undefined
+  },
+  messageTimestamp: 1695673116,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: '50892172',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '50892172',
+  from: '5491162023318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB00654BFAD228BEBD695',
+    participant: undefined
+  },
+  messageTimestamp: 1695673118,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5491162023318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB02B9DA14D4A449F411B',
+    participant: undefined
+  },
+  messageTimestamp: 1695673120,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5491162023318'
+}

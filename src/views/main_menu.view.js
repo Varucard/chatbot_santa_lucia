@@ -40,6 +40,10 @@ Por favor, digite y envie el numero la opción a la que desea acceder 🗄️
         await gotoFlow(barrel.barrelPrimary.flujoMenuPrimaria);
         break;
 
+      case '4':
+        await gotoFlow(barrel.flujoAdios);
+        break;
+
       default:
         fallBack();
         break;

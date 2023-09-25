@@ -31,29 +31,37 @@ npm start
 - Permite encontrar un valor en un archivo Excel con la busqueda por columna y traer todo la información de la fila donde se hizo el matcheo
 - Sistema de Modularización por BARRELS para exportación de flujos
 - Sistema de Carpetas para Modularización
-- Pequeño sistema de Creación, Lectura y Eliminación de archivos
 - [Diagrama estructural](https://drive.google.com/file/d/1Z94pK5BwkLsp5yU0FfF6b5_0UsOEQZyv/view?usp=drive_link)
+
+## Archivos del sistema
+
+```
+  Carpeta Datos: Contiene un archivo con los datos de los Alumnos y de los tutores, en estos archivos el sistema valida los DNI de los Tutores y los DNI de los Alumnos con los datos de estos archivos construye la URL para buscar archivos
+
+  Carpeta Secundaria: Contiene un sistema de archivos de Turnos y grados para almacenar los archivos de notas
+
+  Carpeta Administración: Contiene las facturas de los Tutores
+```
 
 ## Vistas
 
 ```
 - Flujos
   * by (endFlow) ['Adios']
-  * hello ['hola', 'Hola','Buenos días', 'Buenos dias', 'buenos dias', 'Reiniciar', 'reiniciar', 'ChatBot', 'chatbot', 'Chatbot']
+  * hello ['hola', 'Hola','Buenos días', 'Buenos dias'|, 'buenos dias', 'Reiniciar', 'reiniciar', 'ChatBot', 'chatbot', 'Chatbot']
   * main_menu ['Menú Principal', 'Menu Principal', 'menu principal']
   * reboot_system (endFlow) ['Reinicio Sistema']
   * stay (endFlow) ['Quedarse']
-  * unknow_user (endFlow) ['DNI Desconocido']
   * new_user (endFlow) ['Hola, quisiera recibir información de la institución', 'informacion', 'Información', 'información']
 
 - Menu Administración
-  * menu_administration (endFlow) ['Flujo Administracion']
+  * menu_administration ['Flujo Administracion']
 
 - Archivos
   * delivery_notes ['Entrega Notas']
 
 - Menu Primaria
-  * menu_primary ['Flujo Primaria']
+  * menu_primary (endFlow) ['Flujo Primaria']
 
 - Menu Secundaria
   * menu_secundary ['Menu Secundaria']
@@ -61,6 +69,7 @@ npm start
 - Usuarios Desconocidos
   * restart_wizard_student (endFlow) ['DNI Desconocdio Alumno']
   * restart_wizard_tutor (endFlow) ['DNI Desconocido Tutor']
+  * unknow_user (endFlow) ['DNI Desconocido']
 
 - Validadores
   * validator_student ['Validador Alumno']
@@ -74,7 +83,9 @@ npm start
 ```
 - main_menu {
   - menu_administration {
-    - VACIO
+    - Consultar Facturas {
+      - delivery_fact
+    }
   }
   - menu_primary (Terminado) {
     - VACIO
@@ -91,7 +102,7 @@ npm start
 
 ```
 - menu_administration {
-  - VACIO
+  - views_facturas
 }
 ```
 
@@ -113,9 +124,7 @@ npm start
 
 ### Tareas
 
-- Agregar la Opción de Salida en los Menus
-- Indicar si es el DNI del Tutor o del Alumno
 - Agregar opción de visualizar facturas (Menu Administración)
 - Actualizar diagrama
 - Probar carga con Jmeter
-- Validador de archivo encontrado con su mensaje respectivo
+- Mejora en opción de varios archivos para el Usuario (Por numero de informe o mes de Factura)
