@@ -2,12 +2,12 @@ import pkg from '@bot-whatsapp/bot';
 const { addKeyword } = pkg;
 
 /**
- * Flujo Tutor desconocido
- * El Tutor visualizara este flujo al momento de no ser reconocido por el validador de DNI
+ * Flujo Usuario Desconocido
+ * El Usuario Tutor visualizara esta vista si no se encuentra registrado en el sistema
  * El Flujo finaliza con endFlow
  */
-export const flujoTutorDesconocido = addKeyword(['DNI Desconocido Tutor'])
-  .addAnswer('Validando los datos, por favor aguarde unos instantes... ⏰')
+export const flujoUsuarioDeconocido = addKeyword(['DNI desconocido'])
+  .addAnswer('Validando los datos, por favor aguarde un instante... ⏰')
   .addAnswer(
     `
 Lamentamos informale que no pudimos encontrarlo en nuestros archivos 😔.

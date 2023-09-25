@@ -3,16 +3,16 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 // Me traigo todas las vistas
-import { barrel } from './views/index.js'
+import { barrel } from './views/index.js';
 
 // Bot Whatsapp
-import pkg from '@bot-whatsapp/bot'
+import pkg from '@bot-whatsapp/bot';
 // Creador del QR para escanear
-import qr from '@bot-whatsapp/portal'
+import qr from '@bot-whatsapp/portal';
 // Proveedor "Bailys"
-import bp from '@bot-whatsapp/provider/baileys'
+import bp from '@bot-whatsapp/provider/baileys';
 // BD
-import ms from '@bot-whatsapp/database/mysql'
+import ms from '@bot-whatsapp/database/mysql';
 
 const { createBot, createProvider, createFlow } = pkg;
 const QRPortalWeb = qr;
@@ -27,7 +27,7 @@ const main = async () => {
     database: process.env.MYSQL_DB_NAME,
     password: process.env.MYSQL_DB_PASSWORD,
     port: process.env.MYSQL_DB_PORT,
-  })
+  });
   // Al momento de trabajar es necesario declarar todos los Flujos en esta sector
   // Al trabajar con Barrels es necesaria desglozarlos en este sector para que el sistema los reconozca
   const adapterFlow = createFlow([
@@ -36,11 +36,10 @@ const main = async () => {
     barrel.flujoMenuPrincipal,
     barrel.flujoReinicioSistema,
     barrel.flujoQuedarse,
-    barrel.flujoUsuarioDeconocido,
     barrel.flujoNuevoUsuario,
-    // Barrels Menu Administración 
+    // Barrels Menu Administración
     barrel.barrelAdministration.flujoMenuAdministracion,
-    // Barrels Menu Primaria 
+    // Barrels Menu Primaria
     barrel.barrelPrimary.flujoMenuPrimaria,
     // Barrels Menu Secundaria
     barrel.barrelSecundary.flujoMenuSecundaria,
@@ -48,20 +47,21 @@ const main = async () => {
     barrel.barrelValidadores.flujoValidadorAlumno,
     barrel.barrelValidadores.flujoValidadorTutores,
     // Barrels Usuarios Desconocidos
+    barrel.barrelUsuariosDesconocidos.flujoUsuarioDeconocido,
     barrel.barrelUsuariosDesconocidos.flujoAlumnoDesconocido,
     barrel.barrelUsuariosDesconocidos.flujoTutorDesconocido,
     // Barrels Archivos
     barrel.barrelArchivos.flujoEntregaNotas,
-  ])
-  const adapterProvider = createProvider(BaileysProvider)
+  ]);
+  const adapterProvider = createProvider(BaileysProvider);
 
   createBot({
     flow: adapterFlow,
     provider: adapterProvider,
     database: adapterDB,
-  })
+  });
 
-  QRPortalWeb()
-}
+  QRPortalWeb();
+};
 
-main()
+main();
