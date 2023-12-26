@@ -10,7 +10,7 @@ import fs from 'fs';
 import { barrel } from '../index.js';
 // Traigo el DNI del Alumno del Validador de Estudiantes
 import { dniStudent } from '../views_validators/validator_students.view.js';
-import { informeNumero } from '../views_secundary/menu_secundary_notes.view.js';
+// import { informeNumero } from '../views_secundary/menu_secundary_notes.view.js'; Futura versión?
 import { buscarDatoEnExcel } from '../../file/excels.js';
 
 export let pathFileStudent = '';
@@ -33,8 +33,8 @@ export const flujoValidarArchivo = addKeyword(['Validador Archivos'])
     );
 
     // Construyo la URL en base a lo que me llega
-    // URL: /secundaria/numero_de_informe/turno/nivel_división/dni_alumno
-    pathFileStudent = `files/${url[1]}/${informeNumero}/${url[2]}/${url[3]}/${url[4]}.pdf`;
+    // URL: /secundaria/turno/nivel_división/dni_alumno
+    pathFileStudent = `files/${url[1]}/${url[2]}/${url[3]}/${url[4]}.pdf`;
 
     if (fs.existsSync(pathFileStudent)) {
       await gotoFlow(barrel.barrelArchivos.flujoEntregaNotas);

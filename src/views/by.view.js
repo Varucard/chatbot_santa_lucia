@@ -9,7 +9,10 @@ const { addKeyword } = pkg;
 export const flujoAdios = addKeyword(['Adios']).addAction((ctx, { endFlow }) =>
   endFlow(`
 Gracias por utilizar nuestro nuevo asistente virtual 🤖.
-Para futuras consultas por favor digite y envie el mensaje *Hola* para recibir nuestra asistencia nuevamente.
+Para futuras consultas por favor digite y envie el mensaje *ChatBot* para recibir nuestra asistencia nuevamente.
+Tambien puede comunicarse con nostros a *admisantalucia@gmail.com* 💬 o a traves de nuestra web:
+
+🖥️ *https://escuelasantalucia.edu.ar/index.php/contacto/*
 
 Que tenga buen día ¡Adios! 👋🏽
 `),

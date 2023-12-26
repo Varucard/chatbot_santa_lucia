@@ -24,7 +24,7 @@ Por favor, digite y envie el numero de la opción a la que desea acceder 🗄️
   async (ctx, { gotoFlow, fallBack }) => {
     switch (ctx.body) {
       case '1':
-        gotoFlow(barrel.barrelSecundary.flujoMenuSecundariaNotas);
+        gotoFlow(barrel.barrelArchivos.flujoValidarArchivo);
         break;
 
       case '2':

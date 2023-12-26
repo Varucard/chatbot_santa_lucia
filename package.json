@@ -5,7 +5,9 @@
     "main": "app.js",
     "scripts": {
         "pre-copy": "cd .. && npm run  copy.lib chatbot_santa_lucia",
-        "start": "node src/app.js"
+        "start": "node src/app.js",
+        "build": "ng build"
+
     },
     "keywords": [],
     "dependencies": {

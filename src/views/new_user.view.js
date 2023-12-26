@@ -1,14 +1,14 @@
 import pkg from '@bot-whatsapp/bot';
 const { addKeyword } = pkg;
 
-import { barrel } from './index.js';
-
 // Listado de palabras que el Bot acepta
 let listado = [
-  'Hola, quisiera recibir información de la institución',
+  '¡Hola! Quisiera recibir información de la institución',
   'informacion',
   'Información',
   'información',
+  'hola',
+  'Hola',
 ];
 
 /**
@@ -21,14 +21,17 @@ export const flujoNuevoUsuario = addKeyword(listado)
     `
 *Colegio Santa Lucia* 🏫
 
-¡Hola! Estamos felices de poder darte la bienvenida a nuestro Institución. 🙂
-Para obtener mas información por favor comunicate con nosotros a través de nuestra web 🖥️ *https://escuelasantalucia.edu.ar/index.php/contacto/*
+¡Hola! Estamos felices de poder darte la bienvenida al *ChatBot* de nuestra Institución. 🙂
+Si desea obtener mas información de nosotros por favor comunicate a través de nuestra web:
+
+🖥️ *https://escuelasantalucia.edu.ar/index.php/contacto/*
+
 O envianos un mensaje a nuestra casilla de correo para responderte a la brevedad 📧 *admisantalucia@gmail.com*
 Estamos para ayudarte a resolver la consulta que tengas. 🙂
 `,
   )
   .addAction((ctx, { endFlow }) =>
     endFlow(`
-En caso de ya encontrarse inscripto en la Institución, por favor digite y envie el mensaje *Chatbot* para iniciar el sistema. 🤖
+En caso de ya encontrarse inscripto en la Institución, o no ser la primera vez que utiliza nuestro servicio por favor digite y envie el mensaje *Chatbot* para iniciar el sistema. 🤖
 `),
   );

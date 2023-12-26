@@ -6,6 +6,7 @@ import { barrel } from '../index.js';
 export let informeNumero = 0;
 
 /**
+ * Este menu no sirve para esta versión, queda de muestra para una futura actualización
  * Flujo Menu Secundaria Notas
  * El Usario visualizara este Menu al seleccionar la opción de Notas en el Menu de Secundaria.
  * Podra seleccionar cual informe visualizar

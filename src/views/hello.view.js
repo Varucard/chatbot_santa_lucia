@@ -5,8 +5,8 @@ import { barrel } from './index.js';
 
 // Listado de palabras que el Bot acepta
 let listado = [
-  'hola',
-  'Hola',
+  'Buenas tardes',
+  'buenas tardes',
   'Buenos días',
   'Buenos dias',
   'buenos dias',
