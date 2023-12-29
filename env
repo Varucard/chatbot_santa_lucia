@@ -27,5 +27,5 @@ EXCEL_STUDENTS='files/alumnos/dni_alumnos.xlsx'
 #Nombre Hoja Archivo DNI Alumnos
 EXCEL_STUDENTS_SHEET='dni_alumnos'
 
-#Columna donde buscar el valor dentro del Excel
+#Columna donde buscar el valor dentro del Excel, hoja de Alumnos
 EXCEL_COLUMN='C'

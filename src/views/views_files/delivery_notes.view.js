@@ -15,7 +15,7 @@ import { pathFileStudent } from './validate_file.view.js';
  * El Usuario viasualizara esta opción al momento de ser validado y recibira el Boletin del chico solicitado
  */
 export const flujoEntregaNotas = addKeyword(['Entrega Notas'])
-  .addAnswer('Adjuntamos las notas del Alummno solicitado.')
+  .addAnswer('Adjuntamos el informe del Alummno solicitado.')
   .addAction(async (ctx, { flowDynamic }) => {
     await flowDynamic([
       {

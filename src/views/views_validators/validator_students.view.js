@@ -18,7 +18,7 @@ export let dniStudent = 0;
  */
 export const flujoValidadorAlumno = addKeyword(['Validador Alumnos']).addAnswer(
   `
-Por favor, para visualizar todas las opciones digita y envia el *Nro. del Documento del Alumno/a* 👩🏻🧑🏻 para validar su identidad en el sistema 🤖.
+Por favor, para visualizar todas las opciones digite y envie el *Nro. del Documento del Alumno/a* 👩🏻🧑🏻 para validar su identidad en el sistema 🤖.
 *Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*
 `,
   { capture: true },

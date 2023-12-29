@@ -22,7 +22,7 @@ export let pathFileStudent = '';
  * En caso de que no existe refirigira al Flujo Archivo Desconocido
  */
 export const flujoValidarArchivo = addKeyword(['Validador Archivos'])
-  .addAnswer('Buscando el archivo solicitado, por favor aguarde un instante... ⏰')
+  .addAnswer('Buscando el archivo solicitado, por favor aguarde unos instantes... ⏰')
   .addAction(async (ctx, { gotoFlow }) => {
     // traigo la información del Excel para construir el Path al archivo a entregar
     let url = await buscarDatoEnExcel(

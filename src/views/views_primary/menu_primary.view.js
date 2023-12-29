@@ -9,6 +9,6 @@ import { barrel } from '../index.js';
  */
 export const flujoMenuPrimaria = addKeyword(['Flujo Primaria'])
   .addAnswer(
-    'Usted ingreso al "Secotr de Primaria", pronto integraremos nuevas modalidades para poder brindarle nuevas opciones y mas ayuda! 🤖',
+    'Usted ingreso al "Sector de Primaria", pronto integraremos nuevas modalidades para poder brindarle nuevas opciones y mas ayuda! 🤖',
   )
   .addAction((ctx, { gotoFlow }) => gotoFlow(barrel.flujoReinicioSistema));

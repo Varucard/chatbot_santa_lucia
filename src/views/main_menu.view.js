@@ -3,14 +3,22 @@ const { addKeyword } = pkg;
 
 import { barrel } from './index.js';
 
-let listado = ['Menú Principal', 'Menu Principal', 'menu principal'];
+let listadoMenu = [
+  'Menú Principal',
+  'Menu Principal',
+  'menu principal',
+  'Menu',
+  'Menú',
+  'menu',
+  'menú',
+];
 
 /**
  * Flujo de Menu Principal 1 (Administración, Secundaria, Primaria)
  * El Usuario puede digitar para seleccionar alguna de estas opciones para obtener mas opciones
  * En caso de recibir algo incorrecto el sistema vuelve a enviar este mensaje
  */
-export const flujoMenuPrincipal = addKeyword(listado).addAnswer(
+export const flujoMenuPrincipal = addKeyword(listadoMenu).addAnswer(
   [
     `
 Por favor, digite y envie el numero la opción a la que desea acceder 🗄️

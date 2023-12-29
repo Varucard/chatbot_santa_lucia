@@ -2,7 +2,7 @@ import pkg from '@bot-whatsapp/bot';
 const { addKeyword } = pkg;
 
 // Listado de palabras que el Bot acepta
-let listado = [
+let listadoUsuarioNuevo = [
   '¡Hola! Quisiera recibir información de la institución',
   'informacion',
   'Información',
@@ -16,7 +16,7 @@ let listado = [
  * Mensaje de bienvenida que visualiza el Usuario al ingresar por la pagina o al solicitar "Información"
  * El Flujo finaliza con endFlow
  */
-export const flujoNuevoUsuario = addKeyword(listado)
+export const flujoNuevoUsuario = addKeyword(listadoUsuarioNuevo)
   .addAnswer(
     `
 *Colegio Santa Lucia* 🏫

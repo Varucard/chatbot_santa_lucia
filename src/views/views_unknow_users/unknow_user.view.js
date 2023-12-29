@@ -18,6 +18,6 @@ Por favor comuniquese con la Administración del Colegio para poder brindarle so
   )
   .addAction((ctx, { endFlow }) =>
     endFlow(`
-En caso de equivocación al momento de a ver ingresar el Nro. de Documento, por favor digita y envia el mensaje *Reiniciar* para volver a ingresar tu Nro. de Documento 🤖.
+En caso de que se haya equivocado al momento de digitar y enviar el Nro. de Documento, por favor digite y envie el mensaje *Reiniciar* para poder volver a ingresar el *Nro. de Documento* 🤖.
 `),
   );
