@@ -5,7 +5,7 @@ dotenv.config();
 import pkg from '@bot-whatsapp/bot';
 const { addKeyword } = pkg;
 
-import { validateDNI } from '../../security/validate.js';
+import { buscarAlumnoEnExcel } from '../../file/excels.js';
 import { barrel } from '../index.js';
 
 // Guardo el DNI de Alumno y lo expando a donde lo necesito
@@ -14,16 +14,24 @@ export let dniStudent = 0;
 /**
  * Flujo Validador Estudiantes.
  * El sistema valida la identidad del Alumno.
- * En caso de encontrase devuelve lo solicitado, caso contrario lo envia al Flujo de Alumno Desconocido
+ * Te lleva al Flujo de Menu Secundaria o al Flujo de Alumno Desconocido
  */
 export const flujoValidadorAlumno = addKeyword(['Validador Alumnos']).addAnswer(
   `
-Por favor, para visualizar todas las opciones digite y envie el *Nro. del Documento del Alumno/a* 👩🏻🧑🏻 para validar su identidad en el sistema 🤖.
-*Recordá que el mismo debe ser ingresado sin puntos por favor (11222333)*
+Por favor, para visualizar todas las opciones escriba el *Nro. de Documento del Alumno/a* 👩🏻🧑🏻 para validar su identidad 🤖.
+*Recordá que el mismo debe ser ingresado sin utilizar puntos ni guiones*
+*EJEMPLO: 11222333*
 `,
   { capture: true },
   async (ctx, { gotoFlow }) => {
-    if (await validateDNI(process.env.EXCEL_STUDENTS, process.env.EXCEL_STUDENTS_SHEET, ctx.body)) {
+    if (
+      await buscarAlumnoEnExcel(
+        process.env.EXCEL_STUDENTS,
+        process.env.EXCEL_STUDENTS_SHEET,
+        process.env.EXCEL_COLUMN,
+        ctx.body,
+      )
+    ) {
       dniStudent = ctx.body;
       await gotoFlow(barrel.barrelSecundary.flujoMenuSecundaria);
     } else {

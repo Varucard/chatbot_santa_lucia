@@ -13,6 +13,7 @@ import { pathFileStudent } from './validate_file.view.js';
 /**
  * Flujo Entrega Notas
  * El Usuario viasualizara esta opción al momento de ser validado y recibira el Boletin del chico solicitado
+ * Te lleva a Flujo Quedarse
  */
 export const flujoEntregaNotas = addKeyword(['Entrega Notas'])
   .addAnswer('Adjuntamos el informe del Alummno solicitado.')

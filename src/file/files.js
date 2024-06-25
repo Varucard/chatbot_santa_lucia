@@ -1,51 +1,52 @@
-import fs from 'fs';
+import fsPromise from 'fs/promises';
+import fsExtra from 'fs-extra';
 import path from 'path';
 
-// Armo la ruta donde voy a almacenar el archivo temporal
-const directorio = path.join('C:', 'chatbot_santa_lucia', 'files', 'tmp');
+// Obtén el directorio de trabajo actual
+const directorioActual = process.cwd();
+
+// Obtengo la ruta donde guardar el archivo
+const directorio = path.join(directorioActual, 'files', 'tmp');
+
+// Asegúrate de que el directorio exista, de lo contrario lo crea
+fsExtra.ensureDirSync(directorio);
+
 // Emsamblo la ruta junto con el nombre del archivo temporal
 const rutaCompleta = path.join(directorio, 'archivo.txt');
 
 /**
- * Crea un archivo con el unico contenido del ID que se le pase
- * @param {string} id Dato que se quiere guardar en el archivo
- * @returns Retorna TRUE si fue creado, de lo contrario retorna FALSE
+ * Verifica que un archivo exista
+ * @param {string} rutaCompleta ruta donde se verifica el archivo
+ * @returns una promesa de booleano
  */
-export function crearArchivo(id) {
-
-  let flag = true;
-
-  fs.writeFileSync(rutaCompleta, id, (err) => {
-    if (err) {
-      flag = false;
+export async function verificarExistenciaArchivo(rutaCompleta) {
+  try {
+    await fsPromise.access(rutaCompleta);
+    return true;
+  } catch (error) {
+    try {
+      await fsPromise.writeFile(rutaCompleta, '');
+      return true;
+    } catch (error) {
+      return false;
     }
-  });
-
-  return flag;
-}
-// TODO Posibilidad de modificar la función para que se le pueda pasar la ruta de creación del archivo
-
-export function leerArchivo() {
-  const data = fs.readFileSync(rutaCompleta, 'utf8');
-  console.log('Contenido del archivo:', data);
-  return data;
+  }
 }
 
-export function eliminarArchivo() {
-  fs.unlinkSync(rutaCompleta, (error) => {
-    if (error) {
-      console.error('Error al eliminar el archivo:', error);
-    } else {
-      console.log('Archivo eliminado correctamente.');
-    }});
-}
+/**
+ * Graba un dato al final de un archivo de texto
+ * @param {string} value valor a grabar en el final de un archivo
+ * @returns una promesa de booleano
+ */
+// TODO: ¿Posible mejora para pasar en que archivo se graba?
+export async function guardarTutor(value) {
+  if (await verificarExistenciaArchivo(rutaCompleta)) {
+    const contenido = await fsPromise.readFile(rutaCompleta, 'utf8');
+    const nuevoContenido = contenido + value + '\n';
+    await fsPromise.writeFile(rutaCompleta, nuevoContenido, 'utf8');
 
-export function entregaDatos() {
-  let user = leerArchivo();
-  let path = `files/secundaria/${user}.pdf`
+    return true;
+  }
 
-  eliminarArchivo();
-
-  return path;
-
+  return false;
 }

@@ -11,13 +11,15 @@ export const flujoAlumnoDesconocido = addKeyword(['DNI Desconocido Alumno'])
   .addAnswer(
     `
 Lamentamos informale que no pudimos encontrar al Alumno/a en nuestros archivos 😔.
-Por favor comuniquese con la Administración del Colegio para poder brindarle soporte ante este inconveniente.
-*admisantalucia@gmail.com* 📧
+Por favor facilitenos el *Curso* junto al *Nombre y apellido del alumno* para que nuestros tecnicos puedan brindarle soporte ante este inconveniente.
 `,
     { delay: 2000 },
   )
   .addAction((ctx, { endFlow }) =>
     endFlow(`
-En caso de que se haya equivocado al momento de digitar y enviar el Nro. de Documento, por favor digite y envie el mensaje *Reiniciar* para poder volver a ingresar el *Nro. de Documento* 🤖. 
+En caso de que se haya equivocado al momento de enviar el *Nro. de Documento* del alumno, puede enviar el mensaje *Menú Principal* 🗄️ para poder volver a visualizar todas las opciones.
+O envie *Adiós* para finalizar el Asistente Virtual 🤖.
+Si lo desea tambien puede comunicarse con la Administración del Colegio para brindarle un mayor asesoramiento.
+*admisantalucia@gmail.com* 📧
 `),
   );

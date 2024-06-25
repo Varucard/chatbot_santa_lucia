@@ -8,6 +8,6 @@ const { addKeyword } = pkg;
  */
 export const flujoQuedarse = addKeyword(['Quedarse']).addAction((ctx, { endFlow }) =>
   endFlow(`
-Por favor digite y envie el mensaje *Menú Principal* 🗄️ para volver a este o envie el mensaje *Adiós* para finalizar el asistente 🤖.
+Por favor envie el mensaje *Menú Principal* 🗄️ para volver a este o envie el mensaje *Adiós* para finalizar el Asistente Virtual 🤖.
 `),
 );

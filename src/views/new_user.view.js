@@ -21,7 +21,7 @@ export const flujoNuevoUsuario = addKeyword(listadoUsuarioNuevo)
     `
 *Colegio Santa Lucia* 🏫
 
-¡Hola! Estamos felices de poder darte la bienvenida al *ChatBot* de nuestra Institución. 🙂
+¡Hola! Estamos felices de poder darte la bienvenida a nuestro Asistente Virtual Institucional 🤖.
 Si desea obtener mas información de nosotros por favor comunicate a través de nuestra web:
 
 🖥️ *https://escuelasantalucia.edu.ar/index.php/contacto/*
@@ -32,6 +32,6 @@ Estamos para ayudarte a resolver la consulta que tengas. 🙂
   )
   .addAction((ctx, { endFlow }) =>
     endFlow(`
-En caso de ya encontrarse inscripto en la Institución, o no ser la primera vez que utiliza nuestro servicio por favor digite y envie el mensaje *Chatbot* para iniciar el sistema. 🤖
+Si desea seguir con nuestro Asistente Virtual, por favor envie el mensaje *Chatbot* para continuar 🤖.
 `),
   );

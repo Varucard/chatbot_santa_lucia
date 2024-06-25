@@ -44,6 +44,7 @@ const main = async () => {
     // Barrels Menu Secundaria
     barrel.barrelSecundary.flujoMenuSecundaria,
     barrel.barrelSecundary.flujoMenuSecundariaNotas,
+    barrel.barrelSecundary.flujoReporteDesconocido,
     // Barrels Validadores
     barrel.barrelValidadores.flujoValidadorAlumno,
     barrel.barrelValidadores.flujoValidadorTutores,

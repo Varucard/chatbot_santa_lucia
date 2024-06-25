@@ -1,0 +1,180 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0849C8FDA87ED93C38E',
+    participant: undefined
+  },
+  messageTimestamp: 1719340267,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5491162023318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03A2100CF033E7D22CE',
+    participant: undefined
+  },
+  messageTimestamp: 1719340270,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Chatbot',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Chatbot',
+  from: '5491162023318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0FD2AB60D2DA6D3CAAF',
+    participant: undefined
+  },
+  messageTimestamp: 1719340273,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: '41550112',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '41550112',
+  from: '5491162023318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB013F2EFF202D397FCB0',
+    participant: undefined
+  },
+  messageTimestamp: 1719340280,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5491162023318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0992A74A36B4B310693',
+    participant: undefined
+  },
+  messageTimestamp: 1719340283,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5491162023318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB05E7C8428E2FB09FDBF',
+    participant: undefined
+  },
+  messageTimestamp: 1719340490,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu principal',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menu principal',
+  from: '5491162023318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB05E7BB0A3A025CED070',
+    participant: undefined
+  },
+  messageTimestamp: 1719340494,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '5491162023318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B70C0A0ADFF47B153B',
+    participant: undefined
+  },
+  messageTimestamp: 1719340531,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu principal',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menu principal',
+  from: '5491162023318'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491162023318@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D685F14CEDA2C4FDD6',
+    participant: undefined
+  },
+  messageTimestamp: 1719340533,
+  pushName: 'Cristian Marquez',
+  broadcast: false,
+  message: Message {
+    conversation: '4',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '4',
+  from: '5491162023318'
+}

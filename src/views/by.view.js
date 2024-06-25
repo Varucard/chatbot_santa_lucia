@@ -2,7 +2,17 @@ import pkg from '@bot-whatsapp/bot';
 const { addKeyword } = pkg;
 
 // Listado de palabras que el Bot acepta
-let listadoAdios = ['Adios', 'Adiós', 'adios', 'Finalizar', 'finalizar', 'Gracias. Adiós'];
+let listadoAdios = [
+  'Adios',
+  'Adiós',
+  'adios',
+  'Finalizar',
+  'finalizar',
+  'Gracias. Adiós',
+  'Chai',
+  'chai',
+  'chau',
+];
 
 /**
  * Flujo Adios
@@ -12,7 +22,7 @@ let listadoAdios = ['Adios', 'Adiós', 'adios', 'Finalizar', 'finalizar', 'Graci
 export const flujoAdios = addKeyword(listadoAdios).addAction((ctx, { endFlow }) =>
   endFlow(`
 Gracias por utilizar nuestro nuevo asistente virtual 🤖.
-Para futuras consultas por favor digite y envie el mensaje *ChatBot* para recibir nuestra asistencia nuevamente.
+Para futuras consultas por favor envianos el mensaje *ChatBot* para utilizar nuevamente al asistente virtual.
 Tambien puede comunicarse con nostros a *admisantalucia@gmail.com* 💬 o a traves de nuestra web:
 
 🖥️ *https://escuelasantalucia.edu.ar/index.php/contacto/*

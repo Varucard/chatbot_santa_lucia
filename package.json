@@ -7,7 +7,6 @@
         "pre-copy": "cd .. && npm run  copy.lib chatbot_santa_lucia",
         "start": "node src/app.js",
         "build": "ng build"
-
     },
     "keywords": [],
     "dependencies": {
@@ -24,5 +23,8 @@
     },
     "author": "OnlyVarucard",
     "license": "ISC",
-    "type": "module"
+    "type": "module",
+    "devDependencies": {
+        "@types/fs-extra": "^11.0.4"
+    }
 }

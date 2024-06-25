@@ -1,6 +1,7 @@
 import pkg from '@bot-whatsapp/bot';
 const { addKeyword } = pkg;
 
+// TODO: No se utiliza en esta versión
 /**
  * Flujo Usuario Desconocido
  * El Usuario Tutor visualizara esta vista si no se encuentra registrado en el sistema

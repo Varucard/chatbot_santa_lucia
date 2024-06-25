@@ -28,4 +28,4 @@ EXCEL_STUDENTS='files/alumnos/dni_alumnos.xlsx'
 EXCEL_STUDENTS_SHEET='dni_alumnos'
 
 #Columna donde buscar el valor dentro del Excel, hoja de Alumnos
-EXCEL_COLUMN='C'
+EXCEL_COLUMN='D'

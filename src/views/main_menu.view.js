@@ -16,12 +16,12 @@ let listadoMenu = [
 /**
  * Flujo de Menu Principal 1 (Administración, Secundaria, Primaria)
  * El Usuario puede digitar para seleccionar alguna de estas opciones para obtener mas opciones
- * En caso de recibir algo incorrecto el sistema vuelve a enviar este mensaje
+ * En caso de recibir algo incorrecto el sistema vuelve a enviar este mensaje, de lo contrario te deriva a uno los sectores
  */
 export const flujoMenuPrincipal = addKeyword(listadoMenu).addAnswer(
   [
     `
-Por favor, digite y envie el numero la opción a la que desea acceder 🗄️
+Por favor, envie el numero del sector al que desea acceder 🗄️
 
   *1 - Administración* 🗃️
   *2 - Secundaria* 🎓

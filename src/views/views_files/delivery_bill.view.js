@@ -10,10 +10,12 @@ import { barrel } from '../index.js';
 // Traigo la URL al archivo una vez validada
 import { pathFileStudent } from './validate_file.view.js';
 
+// TODO: No se utiliza en este versión
 /**
- * Acomodar en un futuro para las facturas
+ * Flujo que no se utiliza en este versión, es posible utilizarlo a futuro
  * Flujo Entrega Notas
- * El Usuario viasualizara esta opción al momento de ser validado y recibira el Boletin del chico solicitado
+ * El Usuario viasualizara esta opción al momento de ser validado y recibira la factua del alumno solicitado
+ * Te lleva a Flujo Quedarse
  */
 export const flujoEntregaFacturas = addKeyword(['Entrega Notas'])
   .addAnswer('Adjuntamos las facturas del Alummno solicitado.')
