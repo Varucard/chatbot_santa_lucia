@@ -17,7 +17,7 @@ Pero por favor no se preocupe, acabo de alertar a nuestros tecnicos 👨🏻‍�
   )
   .addAction((ctx, { endFlow }) =>
     endFlow(`
-En caso de que se haya equivocado al momento de enviar el *Nro. de Documento* del alumno, puede enviar el mensaje *Menú Principal* 🗄️ para poder volver a visualizar todas las opciones.
+En caso de que se haya equivocado al enviar el *Nro. de Documento*, puede enviar el mensaje *Reiniciar* para activar nuevamente al Asistente.
 O envie *Adiós* para finalizar el Asistente Virtual 🤖.
 Si lo desea tambien puede comunicarse con la Administración del Colegio para brindarle un mayor asesoramiento.
 *admisantalucia@gmail.com* 📧
