@@ -12,6 +12,9 @@ let listadoAdios = [
   'Chai',
   'chai',
   'chau',
+  'Gracias!',
+  'Gracias',
+  'gracias',
 ];
 
 /**

@@ -2,7 +2,24 @@ import pkg from '@bot-whatsapp/bot';
 const { addKeyword } = pkg;
 
 // Listado de palabras que el Bot acepta
-let listadoReporte = ['Reporte', 'report', 'reporte', 'informe', 'Informe', 'Rite', 'rite', 'RITE'];
+let listadoReporte = [
+  'Reporte',
+  'report',
+  'reporte',
+  'informe',
+  'Informe',
+  'Rite',
+  'rite',
+  'RITE',
+  'Boletín',
+  'boletín',
+  'boletin',
+  'NOTA',
+  'nota',
+  'notas',
+  'Notas',
+  'NOTAS',
+];
 
 /**
  * Flujo para Usuarios que consultan directamente por el informe

@@ -5,15 +5,6 @@ import { barrel } from './index.js';
 
 // Listado de palabras que el Bot acepta
 let listadoHola = [
-  'Buenas tardes',
-  'buenas tardes',
-  'Buenos días',
-  'Buenos dias',
-  'buenos dias',
-  'Buen día',
-  'Buen dia',
-  'buen dia',
-  'buen día',
   'Reiniciar',
   'reiniciar',
   'ChatBot',
@@ -26,12 +17,8 @@ let listadoHola = [
   'chat bot',
   'chabot',
   'Chabot',
-  'Rite',
-  'rite',
   'Chatbox',
   'chatbox',
-  'Hoka',
-  'hoka',
   'Chatboy',
   'ChatBoy',
   'chatboy',
