@@ -13,7 +13,7 @@ export const flujoUsuarioDeconocido = addKeyword(['DNI desconocido'])
     `
 Lamentamos informale que no pudimos encontrarlo en nuestros archivos 😔.
 Por favor comuniquese con la Administración del Colegio para poder brindarle soporte ante este inconveniente.
-*admisantalucia@gmail.com* 📧
+*cristianarielmarquez256@gmail.com* 📧
 `,
     { delay: 2000 },
   )

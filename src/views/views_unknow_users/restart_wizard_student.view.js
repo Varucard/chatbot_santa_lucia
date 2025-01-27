@@ -20,6 +20,6 @@ Por favor facilitenos el *Curso* junto al *Nombre y apellido del alumno* para qu
 En caso de que se haya equivocado al momento de enviar el *Nro. de Documento* del alumno, puede enviar el mensaje *Menú Principal* 🗄️ para poder volver a visualizar todas las opciones.
 O envie *Adiós* para finalizar el Asistente Virtual 🤖.
 Si lo desea tambien puede comunicarse con la Administración del Colegio para brindarle un mayor asesoramiento.
-*admisantalucia@gmail.com* 📧
+*cristianarielmarquez256@gmail.com* 📧
 `),
   );

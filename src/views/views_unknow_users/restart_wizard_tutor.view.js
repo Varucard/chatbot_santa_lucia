@@ -20,6 +20,6 @@ Pero por favor no se preocupe, acabo de alertar a nuestros tecnicos 👨🏻‍�
 En caso de que se haya equivocado al enviar el *Nro. de Documento*, puede enviar el mensaje *Reiniciar* para activar nuevamente al Asistente.
 O envie *Adiós* para finalizar el Asistente Virtual 🤖.
 Si lo desea tambien puede comunicarse con la Administración del Colegio para brindarle un mayor asesoramiento.
-*admisantalucia@gmail.com* 📧
+*cristianarielmarquez256@gmail.com* 📧
 `),
   );
